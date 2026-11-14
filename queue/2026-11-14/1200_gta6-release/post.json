@@ -1,0 +1,628 @@
+{
+ "tag": "Game Release",
+ "date": "14 Nov 2026",
+ "footerLeft": "AI Automated News",
+ "footerRight": "Source: Rockstar Games",
+ "maxLines": 3,
+ "headline": "*ROCKSTAR GAMES* සමාගමේ බහුප්‍රතීක්ෂිත *GTA 6* ක්‍රීඩාව *නොවැම්බර් 19* වැනිදා *PS5* සහ *XBOX SERIES X|S* සඳහා නිකුත් වෙයි",
+ "pixel": {
+  "w": 90,
+  "h": 44,
+  "scale": 10,
+  "palette": {
+   "K": "#10123A",
+   "D": "#2F5BFF",
+   "d": "#1C3BCC",
+   "G": "#C9D6FF",
+   "g": "#9BE7C4",
+   "m": "#FF8FC7",
+   "n": "#C7B5FF",
+   "W": "#FFFFFF",
+   "C": "#FF3B5C",
+   "L": "#FFD23F",
+   "Y": "#FFE14D",
+   "N": "#3DFF8A",
+   "B": "#22D3EE",
+   "P": "#FF4FD8",
+   "S": "#BFE6FF",
+   "R": "#FF3B30",
+   "O": "#FF9F1C",
+   "V": "#8B5CF6",
+   "T": "#FFB4A2",
+   "Z": "#5B4636"
+  },
+  "layers": [
+   {
+    "type": "rect",
+    "x": 1,
+    "y": 1,
+    "w": 88,
+    "h": 39,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 2,
+    "w": 1,
+    "h": 38,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 89,
+    "y": 2,
+    "w": 1,
+    "h": 38,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 2,
+    "y": 0,
+    "w": 86,
+    "h": 1,
+    "c": "S"
+   },
+   {
+    "type": "sprite",
+    "x": 5,
+    "y": 4,
+    "rows": [
+     "....WWWW......",
+     "..WWWWWWWW.WW.",
+     ".WWWWWWWWWWWWW",
+     "WWWWWWWWWWWWWW",
+     ".GGGGGGGGGGGG."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "sprite",
+    "x": 70,
+    "y": 3,
+    "rows": [
+     "....WWWW......",
+     "..WWWWWWWW.WW.",
+     ".WWWWWWWWWWWWW",
+     "WWWWWWWWWWWWWW",
+     ".GGGGGGGGGGGG."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "sprite",
+    "x": 78,
+    "y": 10,
+    "rows": [
+     "...RRR...",
+     ".RRORORR.",
+     ".RORRROR.",
+     "RRRRRRRRR",
+     "RORRRRROR",
+     "RRRRRRRRR",
+     ".RORRROR.",
+     ".RRORORR.",
+     "...RRR..."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "sprite",
+    "x": 2,
+    "y": 24,
+    "rows": [
+     "..NN.....NN..",
+     ".NNNN...NNNN.",
+     "NN..NN.NN..NN",
+     "N....NNN....N",
+     ".....NZN.....",
+     "....NNZNN....",
+     "...N..Z..N...",
+     "......Z......",
+     "......Z......",
+     ".....ZZ......",
+     ".....Z.......",
+     ".....Z.......",
+     ".....ZZ......",
+     "......Z......",
+     "......Z......",
+     ".....ZZZ....."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "sprite",
+    "x": 76,
+    "y": 24,
+    "rows": [
+     "..NN.....NN..",
+     ".NNNN...NNNN.",
+     "NN..NN.NN..NN",
+     "N....NNN....N",
+     ".....NZN.....",
+     "....NNZNN....",
+     "...N..Z..N...",
+     "......Z......",
+     "......Z......",
+     ".....ZZ......",
+     ".....Z.......",
+     ".....Z.......",
+     ".....ZZ......",
+     "......Z......",
+     "......Z......",
+     ".....ZZZ....."
+    ],
+    "flipX": true
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 40,
+    "w": 90,
+    "h": 1,
+    "c": "K"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 41,
+    "w": 90,
+    "h": 3,
+    "c": "g"
+   }
+  ]
+ },
+ "anim": {
+  "duration": 5.0,
+  "fps": 24,
+  "actors": [
+   {
+    "rows": [
+     ".P.",
+     "PWP",
+     ".P."
+    ],
+    "x": 20,
+    "y": 6,
+    "blink": [
+     2
+    ]
+   },
+   {
+    "rows": [
+     ".Y.",
+     "YWY",
+     ".Y."
+    ],
+    "x": 60,
+    "y": 8,
+    "blink": [
+     1.5
+    ]
+   },
+   {
+    "rows": [
+     ".B.",
+     "BWB",
+     ".B."
+    ],
+    "x": 45,
+    "y": 3,
+    "blink": [
+     2.5
+    ]
+   },
+   {
+    "rows": [
+     "KKKKKKKKKKKKK",
+     "KCKCCCCCCCKCK",
+     "KCCCCCCCCCCCK",
+     "KKKKKKKKKKKKK",
+     "KWWWWWWWWWWWK",
+     "KWWWWCWWCCCWK",
+     "KWWWCCWWCWCWK",
+     "KWWWWCWWCCCWK",
+     "KWWWWCWWWWCWK",
+     "KWWWCCCWCCWWK",
+     "KWWWWWWWWWWWK",
+     "KKKKKKKKKKKKK"
+    ],
+    "ease": "io",
+    "path": [
+     [
+      0,
+      14,
+      -14
+     ],
+     [
+      0.7,
+      14,
+      27
+     ],
+     [
+      0.85,
+      14,
+      24
+     ],
+     [
+      1.0,
+      14,
+      28
+     ],
+     [
+      5,
+      14,
+      28
+     ]
+    ]
+   },
+   {
+    "type": "burst",
+    "t0": 0.75,
+    "x": 20,
+    "y": 38,
+    "n": 14,
+    "colors": [
+     "W",
+     "Y",
+     "P"
+    ],
+    "speed": 14,
+    "life": 0.6,
+    "gravity": 20,
+    "seed": 2
+   },
+   {
+    "frames": [
+     [
+      "KKKKKKKKKKKKKKKKKKKKKKKK",
+      "KVVVVVVVVVVVVVVVVVVVVVVK",
+      "KVddddddddddddddddddddVK",
+      "KVdWWdddWddWWdddBBdBBdVK",
+      "KVdddWdWWddddWdBdddBdBVK",
+      "KVddWdddWdddWddBdBdBBdVK",
+      "KVdWddddWddWdddBdBdBdBVK",
+      "KVdWWWdWWWdWWWddBBdBBdVK",
+      "KVddddddddddddddddddddVK",
+      "KVdKKKKKKKKKKKKKKKKKKdVK",
+      "KVdKddddddddddddddddKdVK",
+      "KVdKddddddddddddddddKdVK",
+      "KVdKKKKKKKKKKKKKKKKKKdVK",
+      "KVVVVVVVVVVVVVVVVVVVVVVK",
+      "KKKKKKKKKKKKKKKKKKKKKKKK",
+      "........KVVVVVVK........",
+      ".......KKKKKKKKKK......."
+     ]
+    ],
+    "x": 33,
+    "y": 23,
+    "swap": [
+     [
+      1.4,
+      [
+       [
+        "KKKKKKKKKKKKKKKKKKKKKKKK",
+        "KVVVVVVVVVVVVVVVVVVVVVVK",
+        "KVddddddddddddddddddddVK",
+        "KVdWWdddWddWWdddBBdBBdVK",
+        "KVdddWdWWddddWdBdddBdBVK",
+        "KVddWdddWdddWddBdBdBBdVK",
+        "KVdWddddWddWdddBdBdBdBVK",
+        "KVdWWWdWWWdWWWddBBdBBdVK",
+        "KVddddddddddddddddddddVK",
+        "KVdKKKKKKKKKKKKKKKKKKdVK",
+        "KVdKNNNNddddddddddddKdVK",
+        "KVdKNNNNddddddddddddKdVK",
+        "KVdKKKKKKKKKKKKKKKKKKdVK",
+        "KVVVVVVVVVVVVVVVVVVVVVVK",
+        "KKKKKKKKKKKKKKKKKKKKKKKK",
+        "........KVVVVVVK........",
+        ".......KKKKKKKKKK......."
+       ]
+      ]
+     ],
+     [
+      1.8,
+      [
+       [
+        "KKKKKKKKKKKKKKKKKKKKKKKK",
+        "KVVVVVVVVVVVVVVVVVVVVVVK",
+        "KVddddddddddddddddddddVK",
+        "KVdWWdddWddWWdddBBdBBdVK",
+        "KVdddWdWWddddWdBdddBdBVK",
+        "KVddWdddWdddWddBdBdBBdVK",
+        "KVdWddddWddWdddBdBdBdBVK",
+        "KVdWWWdWWWdWWWddBBdBBdVK",
+        "KVddddddddddddddddddddVK",
+        "KVdKKKKKKKKKKKKKKKKKKdVK",
+        "KVdKNNNNNNNNddddddddKdVK",
+        "KVdKNNNNNNNNddddddddKdVK",
+        "KVdKKKKKKKKKKKKKKKKKKdVK",
+        "KVVVVVVVVVVVVVVVVVVVVVVK",
+        "KKKKKKKKKKKKKKKKKKKKKKKK",
+        "........KVVVVVVK........",
+        ".......KKKKKKKKKK......."
+       ]
+      ]
+     ],
+     [
+      2.2,
+      [
+       [
+        "KKKKKKKKKKKKKKKKKKKKKKKK",
+        "KVVVVVVVVVVVVVVVVVVVVVVK",
+        "KVddddddddddddddddddddVK",
+        "KVdWWdddWddWWdddBBdBBdVK",
+        "KVdddWdWWddddWdBdddBdBVK",
+        "KVddWdddWdddWddBdBdBBdVK",
+        "KVdWddddWddWdddBdBdBdBVK",
+        "KVdWWWdWWWdWWWddBBdBBdVK",
+        "KVddddddddddddddddddddVK",
+        "KVdKKKKKKKKKKKKKKKKKKdVK",
+        "KVdKNNNNNNNNNNNNddddKdVK",
+        "KVdKNNNNNNNNNNNNddddKdVK",
+        "KVdKKKKKKKKKKKKKKKKKKdVK",
+        "KVVVVVVVVVVVVVVVVVVVVVVK",
+        "KKKKKKKKKKKKKKKKKKKKKKKK",
+        "........KVVVVVVK........",
+        ".......KKKKKKKKKK......."
+       ]
+      ]
+     ],
+     [
+      2.5,
+      [
+       [
+        "KKKKKKKKKKKKKKKKKKKKKKKK",
+        "KVVVVVVVVVVVVVVVVVVVVVVK",
+        "KVddddddddddddddddddddVK",
+        "KVdWWdddWddWWdddBBdBBdVK",
+        "KVdddWdWWddddWdBdddBdBVK",
+        "KVddWdddWdddWddBdBdBBdVK",
+        "KVdWddddWddWdddBdBdBdBVK",
+        "KVdWWWdWWWdWWWddBBdBBdVK",
+        "KVddddddddddddddddddddVK",
+        "KVdKKKKKKKKKKKKKKKKKKdVK",
+        "KVdKNNNNNNNNNNNNNNNNKdVK",
+        "KVdKNNNNNNNNNNNNNNNNKdVK",
+        "KVdKKKKKKKKKKKKKKKKKKdVK",
+        "KVVVVVVVVVVVVVVVVVVVVVVK",
+        "KKKKKKKKKKKKKKKKKKKKKKKK",
+        "........KVVVVVVK........",
+        ".......KKKKKKKKKK......."
+       ]
+      ]
+     ],
+     [
+      2.75,
+      [
+       [
+        "KKKKKKKKKKKKKKKKKKKKKKKK",
+        "KVVVVVVVVVVVVVVVVVVVVVVK",
+        "KVddddddddddddddddddddVK",
+        "KVdddYYddYddddYddYdYddVK",
+        "KVdddYdYdYdddYdYdYdYddVK",
+        "KVdddYYddYdddYYYddYdddVK",
+        "KVdddYdddYdddYdYddYdddVK",
+        "KVdddYdddYYYdYdYddYdddVK",
+        "KVdddddddddKddddddddddVK",
+        "KVdddddddddKKdddddddddVK",
+        "KVdddddddddKNKddddddddVK",
+        "KVdddddddddKNNKdddddddVK",
+        "KVdddddddddKNKddddddddVK",
+        "KVVVVVVVVVVKKVVVVVVVVVVK",
+        "KKKKKKKKKKKKKKKKKKKKKKKK",
+        "........KVVVVVVK........",
+        ".......KKKKKKKKKK......."
+       ]
+      ]
+     ]
+    ],
+    "shake": [
+     2.7,
+     3.0,
+     1
+    ]
+   },
+   {
+    "rows": [
+     "....KKK....",
+     "....KNK....",
+     "....KNK....",
+     "....KNK....",
+     ".KKKKNKKKK.",
+     "..KNNNNNK..",
+     "...KNNNK...",
+     "....KNK....",
+     ".....K.....",
+     "KKKKKKKKKKK"
+    ],
+    "x": 39,
+    "y": 10,
+    "show": [
+     1.1,
+     2.75
+    ],
+    "bob": [
+     1,
+     3
+    ]
+   },
+   {
+    "type": "burst",
+    "t0": 2.5,
+    "x": 45,
+    "y": 28,
+    "n": 30,
+    "colors": [
+     "Y",
+     "P",
+     "B",
+     "N",
+     "C"
+    ],
+    "speed": 26,
+    "life": 0.45,
+    "gravity": 16,
+    "seed": 7
+   },
+   {
+    "rows": [
+     "C..C..C..C.C......C..CCC",
+     "CC.C.C.C.C.C.....CC..C.C",
+     "C.CC.C.C.C.C......C..CCC",
+     "C..C.C.C.C.C......C....C",
+     "C..C..C...C......CCC.CC."
+    ],
+    "x": 34,
+    "y": 10,
+    "show": [
+     2.8,
+     5
+    ],
+    "path": [
+     [
+      2.8,
+      34,
+      4
+     ],
+     [
+      3.2,
+      34,
+      11
+     ],
+     [
+      5,
+      34,
+      11
+     ]
+    ],
+    "ease": "io"
+   },
+   {
+    "rows": [
+     "...KKKKKKKKKKKKKKKK...",
+     "..KBBBBBBBBBBBBBBBBK..",
+     ".KBBBKBBWKBBWKBBPBBBK.",
+     ".KBBKKKBKKBBKKBPBPBBK.",
+     ".KBBBKBmKBBBBKmBPBBBBK",
+     "KBBBBBBBBKKKKBBBBBBBBK",
+     "KBBBBBBBKKKKKKBBBBBBBK",
+     "KBBBBBBK......KBBBBBBK",
+     "KBBBBBK........KBBBBBK",
+     ".KBBBK..........KBBBK.",
+     "..KKK............KKK.."
+    ],
+    "ease": "io",
+    "path": [
+     [
+      2.4,
+      92,
+      29
+     ],
+     [
+      2.8,
+      62,
+      22
+     ],
+     [
+      3.1,
+      60,
+      29
+     ],
+     [
+      3.6,
+      59,
+      24
+     ],
+     [
+      3.9,
+      58,
+      29
+     ],
+     [
+      5,
+      58,
+      29
+     ]
+    ]
+   },
+   {
+    "rows": [
+     ".P.P.",
+     "PPPPP",
+     "PPPPP",
+     ".PPP.",
+     "..P.."
+    ],
+    "path": [
+     [
+      3.5,
+      70,
+      22
+     ],
+     [
+      4.4,
+      72,
+      12
+     ]
+    ],
+    "show": [
+     3.5,
+     4.4
+    ]
+   },
+   {
+    "rows": [
+     ".P.P.",
+     "PPPPP",
+     "PPPPP",
+     ".PPP.",
+     "..P.."
+    ],
+    "path": [
+     [
+      3.9,
+      64,
+      22
+     ],
+     [
+      4.8,
+      61,
+      13
+     ]
+    ],
+    "show": [
+     3.9,
+     4.8
+    ]
+   },
+   {
+    "rows": [
+     ".P.P.",
+     "PPPPP",
+     "PPPPP",
+     ".PPP.",
+     "..P.."
+    ],
+    "path": [
+     [
+      4.3,
+      68,
+      21
+     ],
+     [
+      5,
+      70,
+      14
+     ]
+    ],
+    "show": [
+     4.3,
+     5
+    ]
+   }
+  ]
+ }
+}
