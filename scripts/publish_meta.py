@@ -17,8 +17,8 @@ G = f"https://graph.facebook.com/{VER}"
 GV = f"https://graph-video.facebook.com/{VER}"
 
 
-def call(url, data=None, method="POST"):
-    body = urllib.parse.urlencode({**(data or {}), "access_token": TOKEN}).encode()
+def call(url, data=None, method="POST", token=None):
+    body = urllib.parse.urlencode({**(data or {}), "access_token": token or TOKEN}).encode()
     if method == "GET":
         req = urllib.request.Request(url + "?" + body.decode())
     else:
@@ -47,18 +47,18 @@ def publish_facebook(st, caption):
     reel = st.get("reel_url")
     if reel:
         try:
-            v = call(f"{G}/{PAGE}/video_reels", {"upload_phase": "start"})
+            v = call(f"{G}/{PAGE}/video_reels", {"upload_phase": "start"}, token=PAGE_TOKEN)
             vid = v["video_id"]
             req = urllib.request.Request(f"https://rupload.facebook.com/video-upload/{VER}/{vid}", method="POST",
-                                         headers={"Authorization": f"OAuth {TOKEN}", "file_url": reel})
+                                         headers={"Authorization": f"OAuth {PAGE_TOKEN}", "file_url": reel})
             with urllib.request.urlopen(req, timeout=300) as r:
                 json.loads(r.read())
             call(f"{G}/{PAGE}/video_reels", {"upload_phase": "finish", "video_id": vid,
-                                             "video_state": "PUBLISHED", "description": caption})
+                                             "video_state": "PUBLISHED", "description": caption}, token=PAGE_TOKEN)
             return "reel:" + vid
         except Exception as e:
             print("  facebook reel failed, posting cover photo instead ->", str(e)[:300])
-    r = call(f"{G}/{PAGE}/photos", {"url": st["cover_url"], "caption": caption})
+    r = call(f"{G}/{PAGE}/photos", {"url": st["cover_url"], "caption": caption}, token=PAGE_TOKEN)
     return "photo:" + r.get("post_id", r.get("id", ""))
 
 
@@ -77,6 +77,17 @@ def publish_instagram(video_url, caption):
 if not (PAGE and TOKEN):
     print("Meta secrets not set yet - skipping publishing. Posts are rendered and saved in automated-news-posts.")
     sys.exit(0)
+
+# Facebook Page posts need a *Page* token. If the secret holds a user token, ask Meta for the Page's own token.
+PAGE_TOKEN = TOKEN
+try:
+    pt = call(f"{G}/{PAGE}", {"fields": "access_token"}, method="GET").get("access_token")
+    if pt:
+        PAGE_TOKEN = pt
+        if pt != TOKEN:
+            print("note: META_PAGE_TOKEN is a user token; using the Page token derived from it.")
+except Exception as e:
+    print("could not look up Page token:", str(e)[:200])
 
 failed = False
 for sf in sorted(ROOT.glob("queue/*/*/status.json")):
