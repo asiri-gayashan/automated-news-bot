@@ -1,11 +1,12 @@
 {
- "rendered": false,
+ "rendered": true,
  "lines": 3,
- "rendered_at": "2026-11-14T05:48:43.377711+00:00",
+ "rendered_at": "2026-11-14T06:05:21.207160+00:00",
  "video_url": "https://asiri-gayashan.github.io/automated-news-posts/posts/2026-11-14/1900_first-bug.mp4",
  "cover_url": "https://asiri-gayashan.github.io/automated-news-posts/posts/2026-11-14/1900_first-bug.cover.png",
  "published": {
   "facebook_error": "400: {\"error\":{\"message\":\"(#100) No permission to publish the video\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"ArR9fbsEaz2GAqXvTwxgLV9\"}}",
   "instagram": "18389784841231440"
- }
+ },
+ "reel_url": "https://asiri-gayashan.github.io/automated-news-posts/posts/2026-11-14/1900_first-bug.reel.mp4"
 }
