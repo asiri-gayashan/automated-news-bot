@@ -42,22 +42,28 @@ def wait_public(url, tries=20):
     return False
 
 
+def _fb_reel(url, caption):
+    v = call(f"{G}/{PAGE}/video_reels", {"upload_phase": "start"}, token=PAGE_TOKEN)
+    vid = v["video_id"]
+    req = urllib.request.Request(f"https://rupload.facebook.com/video-upload/{VER}/{vid}", method="POST",
+                                 headers={"Authorization": f"OAuth {PAGE_TOKEN}", "file_url": url})
+    with urllib.request.urlopen(req, timeout=300) as r:
+        json.loads(r.read())
+    call(f"{G}/{PAGE}/video_reels", {"upload_phase": "finish", "video_id": vid,
+                                     "video_state": "PUBLISHED", "description": caption}, token=PAGE_TOKEN)
+    return vid
+
+
 def publish_facebook(st, caption):
-    """Facebook Page Reel (9:16) via the Reels API; if that fails, post the cover image as a photo."""
-    reel = st.get("reel_url")
-    if reel:
+    """Facebook Page Reel. Tries the SQUARE video first (same as Instagram); if Facebook refuses the
+    square format, uses the 9:16 version; if Reels fail completely, posts the cover image as a photo."""
+    for label, url in (("square", st.get("video_url")), ("9:16", st.get("reel_url"))):
+        if not url:
+            continue
         try:
-            v = call(f"{G}/{PAGE}/video_reels", {"upload_phase": "start"}, token=PAGE_TOKEN)
-            vid = v["video_id"]
-            req = urllib.request.Request(f"https://rupload.facebook.com/video-upload/{VER}/{vid}", method="POST",
-                                         headers={"Authorization": f"OAuth {PAGE_TOKEN}", "file_url": reel})
-            with urllib.request.urlopen(req, timeout=300) as r:
-                json.loads(r.read())
-            call(f"{G}/{PAGE}/video_reels", {"upload_phase": "finish", "video_id": vid,
-                                             "video_state": "PUBLISHED", "description": caption}, token=PAGE_TOKEN)
-            return "reel:" + vid
+            return f"reel-{label}:" + _fb_reel(url, caption)
         except Exception as e:
-            print("  facebook reel failed, posting cover photo instead ->", str(e)[:300])
+            print(f"  facebook {label} reel failed ->", str(e)[:300])
     r = call(f"{G}/{PAGE}/photos", {"url": st["cover_url"], "caption": caption}, token=PAGE_TOKEN)
     return "photo:" + r.get("post_id", r.get("id", ""))
 
