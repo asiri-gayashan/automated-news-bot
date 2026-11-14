@@ -1,0 +1,658 @@
+{
+ "tag": "World News",
+ "date": "14 Nov 2026",
+ "footerLeft": "AI Automated News",
+ "footerRight": "Source: ASEAN, Philstar",
+ "maxLines": 3,
+ "headline": "සාමාජික රටවල් *11*කින් යුත් *ASEAN* සංවිධානයේ *49* වැනි සමුළුව *නොවැම්බර් 15 සිට 17* දක්වා *MANILA* නුවරදී පැවැත්වේ",
+ "pixel": {
+  "w": 90,
+  "h": 44,
+  "scale": 10,
+  "palette": {
+   "K": "#10123A",
+   "D": "#2F5BFF",
+   "d": "#1C3BCC",
+   "G": "#C9D6FF",
+   "g": "#9BE7C4",
+   "m": "#FF8FC7",
+   "n": "#C7B5FF",
+   "W": "#FFFFFF",
+   "C": "#FF3B5C",
+   "L": "#FFD23F",
+   "Y": "#FFE14D",
+   "N": "#3DFF8A",
+   "B": "#22D3EE",
+   "P": "#FF4FD8",
+   "S": "#BFE6FF",
+   "R": "#FF3B30",
+   "O": "#FF9F1C",
+   "V": "#8B5CF6",
+   "T": "#FFB4A2",
+   "Z": "#5B4636"
+  },
+  "layers": [
+   {
+    "type": "rect",
+    "x": 1,
+    "y": 1,
+    "w": 88,
+    "h": 39,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 2,
+    "w": 1,
+    "h": 38,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 89,
+    "y": 2,
+    "w": 1,
+    "h": 38,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 2,
+    "y": 0,
+    "w": 86,
+    "h": 1,
+    "c": "S"
+   },
+   {
+    "type": "sprite",
+    "x": 3,
+    "y": 4,
+    "rows": [
+     "....WWWW......",
+     "..WWWWWWWW.WW.",
+     ".WWWWWWWWWWWWW",
+     "WWWWWWWWWWWWWW",
+     ".GGGGGGGGGGGG."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "sprite",
+    "x": 70,
+    "y": 3,
+    "rows": [
+     "....WWWW......",
+     "..WWWWWWWW.WW.",
+     ".WWWWWWWWWWWWW",
+     "WWWWWWWWWWWWWW",
+     ".GGGGGGGGGGGG."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "sprite",
+    "x": 28,
+    "y": 24,
+    "rows": [
+     "...........KKKKKKKKKKKK...........",
+     "........KKKDDDDDDDDDDDDKKK........",
+     ".....KKKDDDDDDDDDDDDDDDDDDKKK.....",
+     "..KKKDDDDDDDDDDDDDDDDDDDDDDDDKKK..",
+     "KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK",
+     "KWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWK",
+     "KWKKWWKKWWKKWWKKWWKKWWKKWWKKWWKKWK",
+     "KWKBWWKBWWKBWWKBWWKBWWKBWWKBWWKBWK",
+     "KWKBWWKBWWKBWWKBWWKBWWKBWWKBWWKBWK",
+     "KWKKWWKKWWKKWWKKWWKKWWKKWWKKWWKKWK",
+     "KWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWK",
+     "KGGGGGGGGGGGGGKKKKKKGGGGGGGGGGGGGK",
+     "KGGGGGGGGGGGGGKBBBBKGGGGGGGGGGGGGK",
+     "KGGGGGGGGGGGGGKBBBBKGGGGGGGGGGGGGK",
+     "KGGGGGGGGGGGGGKBBBBKGGGGGGGGGGGGGK",
+     "KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK"
+    ],
+    "flipX": false
+   },
+   {
+    "type": "sprite",
+    "x": 6,
+    "y": 24,
+    "rows": [
+     "..NN.....NN..",
+     ".NNNN...NNNN.",
+     "NN..NN.NN..NN",
+     "N....NNN....N",
+     ".....NZN.....",
+     "....NNZNN....",
+     "...N..Z..N...",
+     "......Z......",
+     "......Z......",
+     ".....ZZ......",
+     ".....Z.......",
+     ".....Z.......",
+     ".....ZZ......",
+     "......Z......",
+     "......Z......",
+     ".....ZZZ....."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "sprite",
+    "x": 72,
+    "y": 24,
+    "rows": [
+     "..NN.....NN..",
+     ".NNNN...NNNN.",
+     "NN..NN.NN..NN",
+     "N....NNN....N",
+     ".....NZN.....",
+     "....NNZNN....",
+     "...N..Z..N...",
+     "......Z......",
+     "......Z......",
+     ".....ZZ......",
+     ".....Z.......",
+     ".....Z.......",
+     ".....ZZ......",
+     "......Z......",
+     "......Z......",
+     ".....ZZZ....."
+    ],
+    "flipX": true
+   },
+   {
+    "type": "text",
+    "x": 4,
+    "y": 12,
+    "text": "ASEAN",
+    "c": "D"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 40,
+    "w": 90,
+    "h": 1,
+    "c": "K"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 41,
+    "w": 90,
+    "h": 3,
+    "c": "g"
+   }
+  ]
+ },
+ "anim": {
+  "duration": 5.0,
+  "fps": 24,
+  "actors": [
+   {
+    "rows": [
+     "....K.......",
+     "....KK......",
+     "KKKKKBKKKKK.",
+     "KWWWWWWWWWWK",
+     "KKKKKBKKKKK.",
+     "....KK......",
+     "....K......."
+    ],
+    "ease": "io",
+    "path": [
+     [
+      0.0,
+      -14,
+      9
+     ],
+     [
+      1.6,
+      52,
+      11
+     ]
+    ],
+    "show": [
+     0.0,
+     1.6
+    ]
+   },
+   {
+    "rows": [
+     "....K.......",
+     "....KK......",
+     "KKKKKBKKKKK.",
+     "KWWWWWWWWWWK",
+     "KKKKKBKKKKK.",
+     "....KK......",
+     "....K......."
+    ],
+    "ease": "io",
+    "path": [
+     [
+      0.3,
+      -14,
+      15
+     ],
+     [
+      1.8,
+      40,
+      17
+     ]
+    ],
+    "show": [
+     0.3,
+     1.8
+    ]
+   },
+   {
+    "rows": [
+     "....K.......",
+     "....KK......",
+     "KKKKKBKKKKK.",
+     "KWWWWWWWWWWK",
+     "KKKKKBKKKKK.",
+     "....KK......",
+     "....K......."
+    ],
+    "ease": "io",
+    "path": [
+     [
+      0.6,
+      -14,
+      6
+     ],
+     [
+      1.9,
+      60,
+      8
+     ]
+    ],
+    "show": [
+     0.6,
+     1.9
+    ]
+   },
+   {
+    "rows": [
+     "KCCC",
+     "KCC.",
+     "KC..",
+     "K...",
+     "K...",
+     "K..."
+    ],
+    "path": [
+     [
+      1.6,
+      29,
+      21
+     ],
+     [
+      1.85,
+      29,
+      18
+     ]
+    ],
+    "ease": "io",
+    "show": [
+     1.6,
+     5
+    ]
+   },
+   {
+    "rows": [
+     "KDDD",
+     "KDD.",
+     "KD..",
+     "K...",
+     "K...",
+     "K..."
+    ],
+    "path": [
+     [
+      1.7200000000000002,
+      32,
+      21
+     ],
+     [
+      1.9700000000000002,
+      32,
+      18
+     ]
+    ],
+    "ease": "io",
+    "show": [
+     1.7200000000000002,
+     5
+    ]
+   },
+   {
+    "rows": [
+     "KNNN",
+     "KNN.",
+     "KN..",
+     "K...",
+     "K...",
+     "K..."
+    ],
+    "path": [
+     [
+      1.84,
+      35,
+      21
+     ],
+     [
+      2.09,
+      35,
+      18
+     ]
+    ],
+    "ease": "io",
+    "show": [
+     1.84,
+     5
+    ]
+   },
+   {
+    "rows": [
+     "KYYY",
+     "KYY.",
+     "KY..",
+     "K...",
+     "K...",
+     "K..."
+    ],
+    "path": [
+     [
+      1.96,
+      38,
+      21
+     ],
+     [
+      2.21,
+      38,
+      18
+     ]
+    ],
+    "ease": "io",
+    "show": [
+     1.96,
+     5
+    ]
+   },
+   {
+    "rows": [
+     "KPPP",
+     "KPP.",
+     "KP..",
+     "K...",
+     "K...",
+     "K..."
+    ],
+    "path": [
+     [
+      2.08,
+      41,
+      21
+     ],
+     [
+      2.33,
+      41,
+      18
+     ]
+    ],
+    "ease": "io",
+    "show": [
+     2.08,
+     5
+    ]
+   },
+   {
+    "rows": [
+     "KBBB",
+     "KBB.",
+     "KB..",
+     "K...",
+     "K...",
+     "K..."
+    ],
+    "path": [
+     [
+      2.2,
+      44,
+      21
+     ],
+     [
+      2.45,
+      44,
+      18
+     ]
+    ],
+    "ease": "io",
+    "show": [
+     2.2,
+     5
+    ]
+   },
+   {
+    "rows": [
+     "KOOO",
+     "KOO.",
+     "KO..",
+     "K...",
+     "K...",
+     "K..."
+    ],
+    "path": [
+     [
+      2.3200000000000003,
+      47,
+      21
+     ],
+     [
+      2.5700000000000003,
+      47,
+      18
+     ]
+    ],
+    "ease": "io",
+    "show": [
+     2.3200000000000003,
+     5
+    ]
+   },
+   {
+    "rows": [
+     "KVVV",
+     "KVV.",
+     "KV..",
+     "K...",
+     "K...",
+     "K..."
+    ],
+    "path": [
+     [
+      2.44,
+      50,
+      21
+     ],
+     [
+      2.69,
+      50,
+      18
+     ]
+    ],
+    "ease": "io",
+    "show": [
+     2.44,
+     5
+    ]
+   },
+   {
+    "rows": [
+     "KRRR",
+     "KRR.",
+     "KR..",
+     "K...",
+     "K...",
+     "K..."
+    ],
+    "path": [
+     [
+      2.56,
+      53,
+      21
+     ],
+     [
+      2.81,
+      53,
+      18
+     ]
+    ],
+    "ease": "io",
+    "show": [
+     2.56,
+     5
+    ]
+   },
+   {
+    "rows": [
+     "Kmmm",
+     "Kmm.",
+     "Km..",
+     "K...",
+     "K...",
+     "K..."
+    ],
+    "path": [
+     [
+      2.68,
+      56,
+      21
+     ],
+     [
+      2.93,
+      56,
+      18
+     ]
+    ],
+    "ease": "io",
+    "show": [
+     2.68,
+     5
+    ]
+   },
+   {
+    "rows": [
+     "KLLL",
+     "KLL.",
+     "KL..",
+     "K...",
+     "K...",
+     "K..."
+    ],
+    "path": [
+     [
+      2.8,
+      59,
+      21
+     ],
+     [
+      3.05,
+      59,
+      18
+     ]
+    ],
+    "ease": "io",
+    "show": [
+     2.8,
+     5
+    ]
+   },
+   {
+    "rows": [
+     "KKKKKKKKKKKKK",
+     "KCKCCCCCCCKCK",
+     "KCCCCCCCCCCCK",
+     "KKKKKKKKKKKKK",
+     "KWWWWWWWWWWWK",
+     "KWWWCWWCCCWWK",
+     "KWWCCWWCWWWWK",
+     "KWWWCWWCCCWWK",
+     "KWWWCWWWWCWWK",
+     "KWWCCCWCCCWWK",
+     "KWWWWWWWWWWWK",
+     "KKKKKKKKKKKKK"
+    ],
+    "ease": "io",
+    "path": [
+     [
+      2.3,
+      92,
+      8
+     ],
+     [
+      2.9,
+      72,
+      12
+     ]
+    ],
+    "show": [
+     2.3,
+     5
+    ]
+   },
+   {
+    "rows": [
+     ".Y.",
+     "YWY",
+     ".Y."
+    ],
+    "x": 20,
+    "y": 6,
+    "blink": [
+     1.2
+    ],
+    "show": [
+     3.0,
+     5
+    ]
+   },
+   {
+    "rows": [
+     ".B.",
+     "BWB",
+     ".B."
+    ],
+    "x": 64,
+    "y": 18,
+    "blink": [
+     1.0
+    ],
+    "show": [
+     3.0,
+     5
+    ]
+   },
+   {
+    "rows": [
+     ".P.",
+     "PWP",
+     ".P."
+    ],
+    "x": 24,
+    "y": 20,
+    "blink": [
+     0.8
+    ],
+    "show": [
+     3.0,
+     5
+    ]
+   }
+  ]
+ }
+}
