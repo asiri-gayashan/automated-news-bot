@@ -1,0 +1,481 @@
+{
+ "tag": "Movie Release",
+ "date": "14 Nov 2026",
+ "footerLeft": "AI Automated News",
+ "footerRight": "Source: Yahoo Entertainment",
+ "maxLines": 3,
+ "headline": "*LIONSGATE* සමාගමේ *THE HUNGER GAMES: SUNRISE ON THE REAPING* චිත්‍රපටය *නොවැම්බර් 20* වැනිදා සිට සිනමාහල් සහ *IMAX* තිර වෙත",
+ "pixel": {
+  "w": 90,
+  "h": 44,
+  "scale": 10,
+  "palette": {
+   "K": "#10123A",
+   "D": "#2F5BFF",
+   "d": "#1C3BCC",
+   "G": "#C9D6FF",
+   "g": "#9BE7C4",
+   "m": "#FF8FC7",
+   "n": "#C7B5FF",
+   "W": "#FFFFFF",
+   "C": "#FF3B5C",
+   "L": "#FFD23F",
+   "Y": "#FFE14D",
+   "N": "#3DFF8A",
+   "B": "#22D3EE",
+   "P": "#FF4FD8",
+   "S": "#BFE6FF",
+   "R": "#FF3B30",
+   "O": "#FF9F1C",
+   "V": "#8B5CF6",
+   "T": "#FFB4A2",
+   "Z": "#5B4636"
+  },
+  "layers": [
+   {
+    "type": "rect",
+    "x": 1,
+    "y": 1,
+    "w": 88,
+    "h": 39,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 2,
+    "w": 1,
+    "h": 38,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 89,
+    "y": 2,
+    "w": 1,
+    "h": 38,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 2,
+    "y": 0,
+    "w": 86,
+    "h": 1,
+    "c": "S"
+   },
+   {
+    "type": "sprite",
+    "x": 4,
+    "y": 4,
+    "rows": [
+     "....WWWW......",
+     "..WWWWWWWW.WW.",
+     ".WWWWWWWWWWWWW",
+     "WWWWWWWWWWWWWW",
+     ".GGGGGGGGGGGG."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "sprite",
+    "x": 72,
+    "y": 6,
+    "rows": [
+     "....WWWW......",
+     "..WWWWWWWW.WW.",
+     ".WWWWWWWWWWWWW",
+     "WWWWWWWWWWWWWW",
+     ".GGGGGGGGGGGG."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "mountain",
+    "x": -6,
+    "base": 40,
+    "w": 34,
+    "h": 14,
+    "c": "V",
+    "snow": "n"
+   },
+   {
+    "type": "mountain",
+    "x": 60,
+    "base": 40,
+    "w": 36,
+    "h": 12,
+    "c": "d",
+    "snow": "G"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 40,
+    "w": 90,
+    "h": 1,
+    "c": "K"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 41,
+    "w": 90,
+    "h": 3,
+    "c": "g"
+   }
+  ]
+ },
+ "anim": {
+  "duration": 5.0,
+  "fps": 24,
+  "actors": [
+   {
+    "rows": [
+     "...RRR...",
+     ".RRORORR.",
+     ".RORRROR.",
+     "RRRRRRRRR",
+     "RORRRRROR",
+     "RRRRRRRRR",
+     ".RORRROR.",
+     ".RRORORR.",
+     "...RRR..."
+    ],
+    "ease": "io",
+    "path": [
+     [
+      0,
+      40,
+      38
+     ],
+     [
+      1.3,
+      40,
+      4
+     ],
+     [
+      5,
+      40,
+      4
+     ]
+    ]
+   },
+   {
+    "rows": [
+     "KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK",
+     "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+     "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+     "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
+    ],
+    "x": 0,
+    "y": 40
+   },
+   {
+    "rows": [
+     ".Y.",
+     "YWY",
+     ".Y."
+    ],
+    "x": 30,
+    "y": 5,
+    "blink": [
+     2
+    ],
+    "show": [
+     1.0,
+     5
+    ]
+   },
+   {
+    "rows": [
+     ".P.",
+     "PWP",
+     ".P."
+    ],
+    "x": 56,
+    "y": 4,
+    "blink": [
+     1.6
+    ],
+    "show": [
+     1.0,
+     5
+    ]
+   },
+   {
+    "frames": [
+     [
+      "RCCKKKKKKKKKKKKKKKKKKKKKKKKKKKKCCR",
+      "CCRKWWWWWWWWWWWWWWWWWWWWWWWWWWKCRC",
+      "CRCKWWWWWWWWWWWWWWWWWWWWWWWWWWKRCC",
+      "RCCKWWWWWWWWWWWWWWWWWWWWWWWWWWKCCR",
+      "CCRKWWWWWWWWWWWWWWWWWWWWWWWWWWKCRC",
+      "CRCKWWWWWWWWWWWWWWWWWWWWWWWWWWKRCC",
+      "RCCKWWWWWWWWWWWWWWWWWWWWWWWWWWKCCR",
+      "CCRKWWWWWWWWWWWWWWWWWWWWWWWWWWKCRC",
+      "CRCKWWWWWWWWWWWWWWWWWWWWWWWWWWKRCC",
+      "RCCKWWWWWWWWWWWWWWWWWWWWWWWWWWKCCR",
+      "CCRKWWWWWWWWWWWWWWWWWWWWWWWWWWKCRC",
+      "CRCKWWWWWWWWWWWWWWWWWWWWWWWWWWKRCC",
+      "RCCKWWWWWWWWWWWWWWWWWWWWWWWWWWKCCR",
+      "CCRKWWWWWWWWWWWWWWWWWWWWWWWWWWKCRC",
+      "CRCKWWWWWWWWWWWWWWWWWWWWWWWWWWKRCC",
+      "RCCKWWWWWWWWWWWWWWWWWWWWWWWWWWKCCR",
+      "CCRKKKKKKKKKKKKKKKKKKKKKKKKKKKKCRC",
+      "...K..........................K...",
+      "...K..........................K..."
+     ]
+    ],
+    "ease": "io",
+    "path": [
+     [
+      1.2,
+      28,
+      44
+     ],
+     [
+      1.8,
+      28,
+      21
+     ],
+     [
+      5,
+      28,
+      21
+     ]
+    ],
+    "swap": [
+     [
+      2.2,
+      [
+       [
+        "RCCKKKKKKKKKKKKKKKKKKKKKKKKKKKKCCR",
+        "CCRKWWWWWWWWWWWWWWWWWWWWWWWWWWKCRC",
+        "CRCKWWWWWWWWWWWWWWWWWWWWWWWWWWKRCC",
+        "RCCKWDWWDWWDWWDWDWWWWWDDWWDDDWKCCR",
+        "CCRKWDDWDWDWDWDWDWWWWWWWDWDWDWKCRC",
+        "CRCKWDWDDWDWDWDWDWWWWWWDWWDWDWKRCC",
+        "RCCKWDWWDWDWDWDWDWWWWWDWWWDWDWKCCR",
+        "CCRKWDWWDWWDWWWDWWWWWWDDDWDDDWKCRC",
+        "CRCKWWWWWWWWWWWWWWWWWWWWWWWWWWKRCC",
+        "RCCKWWWWWWWWWWWWWWWWWWWWWWWWWWKCCR",
+        "CCRKWWWWWWWPPPWPWWWPWWPWWPWPWWKCRC",
+        "CRCKWWWWWWWWPWWPPWPPWPWPWPWPWWKRCC",
+        "RCCKWWWWWWWWPWWPWPWPWPPPWWPWWWKCCR",
+        "CCRKWWWWWWWWPWWPWWWPWPWPWPWPWWKCRC",
+        "CRCKWWWWWWWPPPWPWWWPWPWPWPWPWWKRCC",
+        "RCCKWWWWWWWWWWWWWWWWWWWWWWWWWWKCCR",
+        "CCRKKKKKKKKKKKKKKKKKKKKKKKKKKKKCRC",
+        "...K..........................K...",
+        "...K..........................K..."
+       ]
+      ]
+     ]
+    ]
+   },
+   {
+    "type": "burst",
+    "t0": 2.2,
+    "x": 45,
+    "y": 28,
+    "n": 24,
+    "colors": [
+     "Y",
+     "P",
+     "B",
+     "N"
+    ],
+    "speed": 22,
+    "life": 0.5,
+    "gravity": 12,
+    "seed": 3
+   },
+   {
+    "rows": [
+     "KKKKKKKKKKKKK",
+     "KCKCCCCCCCKCK",
+     "KCCCCCCCCCCCK",
+     "KKKKKKKKKKKKK",
+     "KWWWWWWWWWWWK",
+     "KWWWCCWWCCCWK",
+     "KWWWWWCWCWCWK",
+     "KWWWWCWWCWCWK",
+     "KWWWCWWWCWCWK",
+     "KWWWCCCWCCCWK",
+     "KWWWWWWWWWWWK",
+     "KKKKKKKKKKKKK"
+    ],
+    "ease": "io",
+    "path": [
+     [
+      1.9,
+      8,
+      -14
+     ],
+     [
+      2.5,
+      8,
+      28
+     ],
+     [
+      2.65,
+      8,
+      26
+     ],
+     [
+      2.8,
+      8,
+      28
+     ],
+     [
+      5,
+      8,
+      28
+     ]
+    ]
+   },
+   {
+    "rows": [
+     "..W.Y..W.Y..",
+     ".WYWWYWYWWY.",
+     "WYWWYWWYWWYW",
+     "KKKKKKKKKKKK",
+     ".KRWWWWWWRK.",
+     ".KRKKWWKKRK.",
+     ".KRKWWWKWRK.",
+     ".KRmWWWWmRK.",
+     ".KRWKWWKWRK.",
+     "..KRWKKWRK..",
+     "..KRWWWWRK..",
+     "..KRWWWWRK..",
+     "...KKKKKK..."
+    ],
+    "ease": "io",
+    "path": [
+     [
+      2.4,
+      92,
+      27
+     ],
+     [
+      2.8,
+      72,
+      20
+     ],
+     [
+      3.1,
+      70,
+      27
+     ],
+     [
+      3.5,
+      69,
+      22
+     ],
+     [
+      3.8,
+      68,
+      27
+     ],
+     [
+      5,
+      68,
+      27
+     ]
+    ]
+   },
+   {
+    "type": "burst",
+    "t0": 3.8,
+    "x": 74,
+    "y": 26,
+    "n": 16,
+    "colors": [
+     "W",
+     "Y"
+    ],
+    "speed": 18,
+    "life": 0.9,
+    "gravity": 30,
+    "seed": 9
+   },
+   {
+    "rows": [
+     "KKKKKKKKKKK",
+     "KYYYYYYYYYK",
+     "KYKCYCYCKYK",
+     "KYYYYYYYYYK",
+     "KKKKKKKKKKK"
+    ],
+    "path": [
+     [
+      3.4,
+      8,
+      40
+     ],
+     [
+      4.4,
+      10,
+      14
+     ]
+    ],
+    "show": [
+     3.4,
+     4.4
+    ],
+    "ease": "io"
+   },
+   {
+    "rows": [
+     ".P.P.",
+     "PPPPP",
+     "PPPPP",
+     ".PPP.",
+     "..P.."
+    ],
+    "path": [
+     [
+      3.9,
+      74,
+      20
+     ],
+     [
+      4.8,
+      77,
+      11
+     ]
+    ],
+    "show": [
+     3.9,
+     4.8
+    ]
+   },
+   {
+    "rows": [
+     ".P.P.",
+     "PPPPP",
+     "PPPPP",
+     ".PPP.",
+     "..P.."
+    ],
+    "path": [
+     [
+      4.3,
+      70,
+      20
+     ],
+     [
+      5,
+      67,
+      12
+     ]
+    ],
+    "show": [
+     4.3,
+     5
+    ]
+   }
+  ]
+ }
+}
