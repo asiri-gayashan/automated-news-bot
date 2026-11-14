@@ -5,8 +5,8 @@
  "video_url": "https://asiri-gayashan.github.io/automated-news-posts/posts/2026-11-14/1900_first-bug.mp4",
  "cover_url": "https://asiri-gayashan.github.io/automated-news-posts/posts/2026-11-14/1900_first-bug.cover.png",
  "published": {
-  "facebook_error": "403: {\"error\":{\"message\":\"(#200) The permission(s) publish_actions are not available. It has been deprecated. If you want to provide a way for your app users to share content to Facebook, we encourage you to use our Sharing products instead.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"Al90EqyB4PhGRwq7ak9vlbb\"}}",
-  "instagram": "18389784841231440"
+  "instagram": "18389784841231440",
+  "facebook": "reel:2218025755799767"
  },
  "reel_url": "https://asiri-gayashan.github.io/automated-news-posts/posts/2026-11-14/1900_first-bug.reel.mp4"
 }
