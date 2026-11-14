@@ -42,8 +42,24 @@ def wait_public(url, tries=20):
     return False
 
 
-def publish_facebook(video_url, caption):
-    return call(f"{GV}/{PAGE}/videos", {"file_url": video_url, "description": caption})["id"]
+def publish_facebook(st, caption):
+    """Facebook Page Reel (9:16) via the Reels API; if that fails, post the cover image as a photo."""
+    reel = st.get("reel_url")
+    if reel:
+        try:
+            v = call(f"{G}/{PAGE}/video_reels", {"upload_phase": "start"})
+            vid = v["video_id"]
+            req = urllib.request.Request(f"https://rupload.facebook.com/video-upload/{VER}/{vid}", method="POST",
+                                         headers={"Authorization": f"OAuth {TOKEN}", "file_url": reel})
+            with urllib.request.urlopen(req, timeout=300) as r:
+                json.loads(r.read())
+            call(f"{G}/{PAGE}/video_reels", {"upload_phase": "finish", "video_id": vid,
+                                             "video_state": "PUBLISHED", "description": caption})
+            return "reel:" + vid
+        except Exception as e:
+            print("  facebook reel failed, posting cover photo instead ->", str(e)[:300])
+    r = call(f"{G}/{PAGE}/photos", {"url": st["cover_url"], "caption": caption})
+    return "photo:" + r.get("post_id", r.get("id", ""))
 
 
 def publish_instagram(video_url, caption):
@@ -72,13 +88,15 @@ for sf in sorted(ROOT.glob("queue/*/*/status.json")):
         continue
     cap_f = sf.parent / "caption.txt"
     caption = cap_f.read_text(encoding="utf-8") if cap_f.exists() else ""
-    if not wait_public(st["video_url"]):
+    if not wait_public(st["video_url"]) or (st.get("reel_url") and not wait_public(st["reel_url"])):
         print("video not reachable yet:", st["video_url"]); failed = True; continue
-    for name, fn, enabled in (("facebook", publish_facebook, True), ("instagram", publish_instagram, bool(IG))):
+    for name, fn, enabled in (("facebook", lambda: publish_facebook(st, caption), True),
+                              ("instagram", lambda: publish_instagram(st["video_url"], caption), bool(IG))):
         if not enabled or pub.get(name):
             continue
         try:
-            pub[name] = fn(st["video_url"], caption)
+            pub[name] = fn()
+            pub.pop(name + "_error", None)
             print(f"{sf.parent.name}: {name} OK -> {pub[name]}")
         except Exception as e:
             pub[name + "_error"] = str(e)[:400]; failed = True

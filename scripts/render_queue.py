@@ -7,7 +7,7 @@ queue/<YYYY-MM-DD>/<HHMM_slug>/status.json (written by the workflow)
 Rendered media go to  out/posts/<YYYY-MM-DD>/<HHMM_slug>.mp4 / .cover.png / .txt
 and are later copied into the public automated-news-posts repo (served by GitHub Pages).
 """
-import json, os, pathlib, sys, datetime, shutil
+import json, os, pathlib, sys, datetime, shutil, subprocess
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "engine"))
@@ -33,16 +33,22 @@ for post in sorted(ROOT.glob("queue/*/*/post.json")):
         status_f.write_text(json.dumps(status, indent=1))
         summary.append(f"### ❌ {day}/{slug}\nRender failed: `{str(e)[:300]}`\n")
         continue
+    # 9:16 version (1080x1920) for Facebook Reels and TikTok: the square post centred on the page colour
+    reel = mp4.with_suffix(".reel.mp4")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(mp4), "-vf",
+                    "pad=1080:1920:0:420:color=0xFDFDFB", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18",
+                    "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(reel)], check=True)
     cap = d / "caption.txt"
     if cap.exists():
         shutil.copy(cap, OUT / day / f"{slug}.txt")
     base = f"{PAGES}/posts/{day}/{slug}"
     status.update(rendered=True, lines=lines, rendered_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),
-                  video_url=base + ".mp4", cover_url=base + ".cover.png", published={})
+                  video_url=base + ".mp4", reel_url=base + ".reel.mp4", cover_url=base + ".cover.png",
+                  published=status.get("published", {}))
     status_f.write_text(json.dumps(status, indent=1))
     warn = "" if lines == 3 else f"\n> ⚠️ Headline is {lines} lines (should be 3) — check before approving.\n"
     caption = cap.read_text(encoding="utf-8") if cap.exists() else "(no caption)"
-    summary.append(f"### ✅ {day}/{slug}\n![cover]({base}.cover.png)\n\n[▶ video]({base}.mp4){warn}\n\n```\n{caption}\n```\n")
+    summary.append(f"### ✅ {day}/{slug}\n![cover]({base}.cover.png)\n\n[▶ video]({base}.mp4) · [▶ 9:16 for TikTok]({base}.reel.mp4){warn}\n\n```\n{caption}\n```\n")
     new += 1
 
 if os.environ.get("GITHUB_STEP_SUMMARY"):
