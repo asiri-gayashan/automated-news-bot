@@ -95,8 +95,11 @@ try:
 except Exception as e:
     print("could not look up Page token:", str(e)[:200])
 
+ONLY = {x for x in os.environ.get("ONLY_POSTS", "").split(",") if x}   # posts rendered by THIS run
 failed = False
 for sf in sorted(ROOT.glob("queue/*/*/status.json")):
+    if ONLY and f"{sf.parent.parent.name}/{sf.parent.name}" not in ONLY:
+        continue
     st = json.loads(sf.read_text())
     if not st.get("rendered"):
         continue

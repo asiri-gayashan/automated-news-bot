@@ -1,6 +1,7 @@
 # RUNBOOK — making one news post (for the scheduled Claude runs)
 
 Page: **Asiri Gayashan** (Sinhala tech & news page). Each run makes **exactly one** post and commits it to `queue/`.
+**Never push a second post in the same run.** If you change your mind after pushing, stop and tell Asiri instead (he can reject it in GitHub).
 GitHub Actions then renders the video, waits for Asiri's approval, and publishes to Facebook + Instagram.
 
 ## 0. Set-up inside the run

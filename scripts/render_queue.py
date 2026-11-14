@@ -17,6 +17,7 @@ PAGES = os.environ.get("PAGES_BASE", "https://asiri-gayashan.github.io/automated
 OUT = ROOT / "out" / "posts"
 summary = []
 new = 0
+rendered_ids = []
 
 for post in sorted(ROOT.glob("queue/*/*/post.json")):
     d = post.parent
@@ -50,6 +51,7 @@ for post in sorted(ROOT.glob("queue/*/*/post.json")):
     caption = cap.read_text(encoding="utf-8") if cap.exists() else "(no caption)"
     summary.append(f"### ✅ {day}/{slug}\n![cover]({base}.cover.png)\n\n[▶ video]({base}.mp4) · [▶ 9:16 for TikTok]({base}.reel.mp4){warn}\n\n```\n{caption}\n```\n")
     new += 1
+    rendered_ids.append(f"{day}/{slug}")
 
 if os.environ.get("GITHUB_STEP_SUMMARY"):
     with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as f:
@@ -58,4 +60,5 @@ if os.environ.get("GITHUB_STEP_SUMMARY"):
 if os.environ.get("GITHUB_OUTPUT"):
     with open(os.environ["GITHUB_OUTPUT"], "a") as f:
         f.write(f"new={new}\n")
+        f.write("posts=" + ",".join(rendered_ids) + "\n")
 print("rendered", new, "post(s)")

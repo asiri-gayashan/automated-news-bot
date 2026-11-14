@@ -17,6 +17,7 @@ jobs:
       contents: write
     outputs:
       new: ${{ steps.render.outputs.new }}
+      posts: ${{ steps.render.outputs.posts }}
     steps:
       - uses: actions/checkout@v4
 
@@ -83,6 +84,7 @@ jobs:
           META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           META_API_VERSION: ${{ vars.META_API_VERSION }}
+          ONLY_POSTS: ${{ needs.render.outputs.posts }}
         run: python scripts/publish_meta.py
 
       - name: Save publish status
