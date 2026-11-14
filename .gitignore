@@ -1,0 +1,5 @@
+engine/fonts/AmericanCaptain.*
+out/
+queue/**/preview.png
+__pycache__/
+*.pyc

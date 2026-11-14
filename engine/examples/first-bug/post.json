@@ -1,0 +1,548 @@
+{
+ "tag": "Interesting Facts",
+ "date": "14 Nov 2026",
+ "footerLeft": "AI Automated News",
+ "footerRight": "Source: Smithsonian",
+ "maxLines": 3,
+ "headline": "ලොව ප්‍රථම *COMPUTER BUG* එක ඇත්තම කෘමියෙක්: *1947* දී *HARVARD MARK II* පරිගණකය තුළ සිරවී සිටි *MOTH* සලබයෙක් ඉංජිනේරුවන් විසින් සොයා ගැනිණි",
+ "pixel": {
+  "w": 90,
+  "h": 44,
+  "scale": 10,
+  "palette": {
+   "K": "#10123A",
+   "D": "#2F5BFF",
+   "d": "#1C3BCC",
+   "G": "#C9D6FF",
+   "g": "#9BE7C4",
+   "m": "#FF8FC7",
+   "n": "#C7B5FF",
+   "W": "#FFFFFF",
+   "C": "#FF3B5C",
+   "L": "#FFD23F",
+   "Y": "#FFE14D",
+   "N": "#3DFF8A",
+   "B": "#22D3EE",
+   "P": "#FF4FD8",
+   "S": "#BFE6FF",
+   "R": "#FF3B30",
+   "O": "#FF9F1C",
+   "V": "#8B5CF6",
+   "T": "#FFB4A2",
+   "Z": "#5B4636"
+  },
+  "layers": [
+   {
+    "type": "rect",
+    "x": 1,
+    "y": 1,
+    "w": 88,
+    "h": 39,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 2,
+    "w": 1,
+    "h": 38,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 89,
+    "y": 2,
+    "w": 1,
+    "h": 38,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 2,
+    "y": 0,
+    "w": 86,
+    "h": 1,
+    "c": "S"
+   },
+   {
+    "type": "sprite",
+    "x": 4,
+    "y": 5,
+    "rows": [
+     "....WWWW......",
+     "..WWWWWWWW.WW.",
+     ".WWWWWWWWWWWWW",
+     "WWWWWWWWWWWWWW",
+     ".GGGGGGGGGGGG."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "sprite",
+    "x": 66,
+    "y": 4,
+    "rows": [
+     "....WWWW......",
+     "..WWWWWWWW.WW.",
+     ".WWWWWWWWWWWWW",
+     "WWWWWWWWWWWWWW",
+     ".GGGGGGGGGGGG."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "text",
+    "x": 6,
+    "y": 14,
+    "text": "1947",
+    "c": "C"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 40,
+    "w": 90,
+    "h": 1,
+    "c": "K"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 41,
+    "w": 90,
+    "h": 3,
+    "c": "g"
+   }
+  ]
+ },
+ "anim": {
+  "duration": 5.0,
+  "fps": 24,
+  "actors": [
+   {
+    "rows": [
+     ".P.",
+     "PWP",
+     ".P."
+    ],
+    "x": 62,
+    "y": 10,
+    "blink": [
+     2
+    ]
+   },
+   {
+    "rows": [
+     ".B.",
+     "BWB",
+     ".B."
+    ],
+    "x": 22,
+    "y": 9,
+    "blink": [
+     1.5
+    ]
+   },
+   {
+    "rows": [
+     ".Y.",
+     "YWY",
+     ".Y."
+    ],
+    "x": 80,
+    "y": 26,
+    "blink": [
+     2.5
+    ]
+   },
+   {
+    "frames": [
+     [
+      "KKKKKKKKKKKKKKKKKKKK",
+      "KGGGGGGGGGGGGGGGGGGK",
+      "KGKKKKKKKKKKKKKKKKGK",
+      "KGKddddddddddddddKGK",
+      "KGKdNddddddddddddKGK",
+      "KGKddddddddddddddKGK",
+      "KGKdNNNddddddddddKGK",
+      "KGKddddddddddddddKGK",
+      "KGKdNNdddddddddddKGK",
+      "KGKddddddddddddddKGK",
+      "KGKKKKKKKKKKKKKKKKGK",
+      "KGGGGGGGGGGGGGGGGGGK",
+      "KGGRGOGNGGGGGGKKKKGK",
+      "KGGGGGGGGGGGGGGGGGGK",
+      "KKKKKKKKKKKKKKKKKKKK",
+      "......KGGGGGGK......",
+      ".....KKKKKKKKKK....."
+     ]
+    ],
+    "x": 34,
+    "y": 23,
+    "swap": [
+     [
+      2.55,
+      [
+       [
+        "KKKKKKKKKKKKKKKKKKKK",
+        "KGGGGGGGGGGGGGGGGGGK",
+        "KGKKKKKKKKKKKKKKKKGK",
+        "KGKCCCCCCCCCCCCCCKGK",
+        "KGKCWWWCWWCCWWCCCKGK",
+        "KGKCWCCCWCWCWCWCCKGK",
+        "KGKCWWWCWWCCWWCCCKGK",
+        "KGKCWCCCWCWCWCWCCKGK",
+        "KGKCWWWCWCWCWCWCCKGK",
+        "KGKCCCCCCCCCCCCCCKGK",
+        "KGKKKKKKKKKKKKKKKKGK",
+        "KGGGGGGGGGGGGGGGGGGK",
+        "KGGRGRGRGGGGGGKKKKGK",
+        "KGGGGGGGGGGGGGGGGGGK",
+        "KKKKKKKKKKKKKKKKKKKK",
+        "......KGGGGGGK......",
+        ".....KKKKKKKKKK....."
+       ]
+      ]
+     ]
+    ],
+    "shake": [
+     2.5,
+     3.3,
+     1
+    ]
+   },
+   {
+    "rows": [
+     "..WW...",
+     ".WWWWW.",
+     "WWGWWWW",
+     "WGGGWWW",
+     ".WWWWW."
+    ],
+    "path": [
+     [
+      2.8,
+      36,
+      21
+     ],
+     [
+      4.2,
+      30,
+      9
+     ]
+    ],
+    "show": [
+     2.8,
+     4.2
+    ]
+   },
+   {
+    "rows": [
+     "..WW...",
+     ".WWWWW.",
+     "WWGWWWW",
+     "WGGGWWW",
+     ".WWWWW."
+    ],
+    "path": [
+     [
+      3.0,
+      46,
+      21
+     ],
+     [
+      4.4,
+      52,
+      8
+     ]
+    ],
+    "show": [
+     3.0,
+     4.4
+    ]
+   },
+   {
+    "rows": [
+     "..WW...",
+     ".WWWWW.",
+     "WWGWWWW",
+     "WGGGWWW",
+     ".WWWWW."
+    ],
+    "path": [
+     [
+      3.2,
+      41,
+      20
+     ],
+     [
+      4.6,
+      41,
+      6
+     ]
+    ],
+    "show": [
+     3.2,
+     4.6
+    ]
+   },
+   {
+    "type": "burst",
+    "t0": 2.6,
+    "x": 44,
+    "y": 28,
+    "n": 26,
+    "colors": [
+     "Y",
+     "O",
+     "R",
+     "P",
+     "B"
+    ],
+    "speed": 22,
+    "life": 0.9,
+    "gravity": 18,
+    "seed": 5
+   },
+   {
+    "frames": [
+     [
+      "..K.......K..",
+      "...K.....K...",
+      "....KKKKK....",
+      "....KWKWK....",
+      "KKKKKZZZKKKKK",
+      "KTTTKKZKKTTTK",
+      "KTmTTKZKTTmTK",
+      "KTTTTKZKTTTTK",
+      ".KTTTKZKTTTK.",
+      "..KKKZZZKKK..",
+      ".....KZK.....",
+      "......K......"
+     ],
+     [
+      "..K.......K..",
+      "...K.....K...",
+      "....KKKKK....",
+      "....KWKWK....",
+      "...KKZZZKK...",
+      "..KTTKZKTTK..",
+      "..KTmKZKmTK..",
+      "..KTTKZKTTK..",
+      "..KTTKZKTTK..",
+      "...KKZZZKK...",
+      ".....KZK.....",
+      "......K......"
+     ]
+    ],
+    "fps": 10,
+    "ease": "io",
+    "path": [
+     [
+      0,
+      2,
+      22
+     ],
+     [
+      0.5,
+      14,
+      6
+     ],
+     [
+      0.9,
+      40,
+      4
+     ],
+     [
+      1.2,
+      62,
+      12
+     ],
+     [
+      1.5,
+      52,
+      4
+     ],
+     [
+      1.9,
+      38,
+      11
+     ],
+     [
+      5,
+      38,
+      11
+     ]
+    ],
+    "show": [
+     0,
+     5
+    ]
+   },
+   {
+    "rows": [
+     ".P.P.",
+     "PPPPP",
+     "PPPPP",
+     ".PPP.",
+     "..P.."
+    ],
+    "path": [
+     [
+      1.95,
+      49,
+      8
+     ],
+     [
+      2.45,
+      50,
+      3
+     ]
+    ],
+    "show": [
+     1.95,
+     2.45
+    ]
+   },
+   {
+    "frames": [
+     [
+      "....KKKK....",
+      "...KZZZZK...",
+      "..KZZZZZZK..",
+      "..KTTTTTTK..",
+      "..KKWKKWKK..",
+      "..KTKTTKTK..",
+      "..KTTTTTTK..",
+      "..KTTCCTTK..",
+      "...KTTTTK...",
+      "..KKWWWWKK..",
+      ".KWWWWBWWWK.",
+      ".KWWWWBWWWK.",
+      ".KTKWWBWWKTK",
+      "..KWWWWWWK..",
+      "..KWWWWWWK..",
+      "..KDDKKDDK..",
+      "..KDDK.KDDK.",
+      "..KKK..KKK.."
+     ],
+     [
+      "....KKKK....",
+      "...KZZZZK...",
+      "..KZZZZZZK..",
+      "..KTTTTTTK..",
+      "..KKWKKWKK..",
+      "..KTKTTKTK..",
+      "..KTTTTTTK..",
+      "..KTTCCTTK..",
+      "...KTTTTK...",
+      "..KKWWWWKK..",
+      ".KWWWWBWWWK.",
+      ".KWWWWBWWWK.",
+      ".KTKWWBWWKTK",
+      "..KWWWWWWK..",
+      "..KWWWWWWK..",
+      "..KDDKKDDK..",
+      "...KDDKDDK..",
+      "...KKKKKK..."
+     ]
+    ],
+    "fps": 6,
+    "path": [
+     [
+      3.4,
+      92,
+      22
+     ],
+     [
+      4.3,
+      56,
+      22
+     ]
+    ],
+    "show": [
+     3.4,
+     4.3
+    ]
+   },
+   {
+    "rows": [
+     "....KKKK....",
+     "...KZZZZK...",
+     "..KZZZZZZK..",
+     "..KTTTTTTK..",
+     "..KKWKKWKK..",
+     "..KTKTTKTK..",
+     "..KTTTTTTK..",
+     "..KTTCCTTK..",
+     "...KTTTTK...",
+     "..KKWWWWKK..",
+     ".KWWWWBWWWK.",
+     ".KWWWWBWWWK.",
+     ".KTKWWBWWKTK",
+     "..KWWWWWWK..",
+     "..KWWWWWWK..",
+     "..KDDKKDDK..",
+     "..KDDK.KDDK.",
+     "..KKK..KKK.."
+    ],
+    "x": 56,
+    "y": 22,
+    "show": [
+     4.3,
+     5
+    ]
+   },
+   {
+    "rows": [
+     "..KKKKK..",
+     ".KBBBBBK.",
+     "KBWWBBBBK",
+     "KBWBBBBBK",
+     "KBBBBBBBK",
+     ".KBBBBBK.",
+     "..KKKKKKK",
+     "......KKK"
+    ],
+    "path": [
+     [
+      4.3,
+      54,
+      26
+     ],
+     [
+      4.6,
+      50,
+      15
+     ]
+    ],
+    "show": [
+     4.3,
+     5
+    ]
+   },
+   {
+    "rows": [
+     ".KKKKK.",
+     "KWWCWWK",
+     "KWWCWWK",
+     "KWWCWWK",
+     "KWWWWWK",
+     "KWWCWWK",
+     ".KKKKK.",
+     "..KK...",
+     "..K...."
+    ],
+    "x": 59,
+    "y": 11,
+    "show": [
+     4.6,
+     5
+    ],
+    "blink": [
+     4
+    ]
+   }
+  ]
+ }
+}

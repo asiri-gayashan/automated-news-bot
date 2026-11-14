@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="si"><head><meta charset="utf-8">
+<title>Asiri Gayashan – Pixel News Template (1080x1080)</title>
+<style>
+@font-face{font-family:"AmericanCaptain";src:url("fonts/AmericanCaptain.otf");}
+@font-face{font-family:"GemunuLibre";src:url("fonts/GemunuLibre-ExtraBold.ttf");font-weight:800;}
+@font-face{font-family:"Poppins";src:url("fonts/Poppins-Regular.ttf");}
+:root{
+  --paper:#FDFDFB; --ink:#141413; --ink-soft:#5E5D59; --clay:#D97757; --line:rgba(20,20,19,.14);
+  --si-size:66px; --en-ratio:0.80; --en-widen:1.14; --stretch:1.10;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1080px;overflow:hidden;background:var(--paper)}
+#post{position:relative;width:1080px;height:1080px;overflow:hidden;background:var(--paper);color:var(--ink)}
+
+/* background */
+.grid{position:absolute;inset:0;
+  background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);
+  background-size:90px 90px;opacity:.12}
+.grain{position:absolute;inset:0;opacity:.05;mix-blend-mode:multiply}
+
+/* top bar */
+#logo{position:absolute;left:70px;top:58px;width:250px}
+#date{position:absolute;right:70px;top:92px;font-family:"Poppins";font-size:15px;letter-spacing:.15em;color:var(--ink-soft);text-transform:uppercase}
+
+/* 8-bit illustration stage */
+#stage{position:absolute;left:70px;right:70px;top:170px;height:470px;display:flex;align-items:flex-end;justify-content:center}
+#pixel{image-rendering:pixelated;shape-rendering:crispEdges;display:block}
+
+/* bottom news block */
+#news{position:absolute;left:70px;right:70px;bottom:110px}
+#tag{display:inline-flex;align-items:center;gap:12px;font-family:"Poppins";font-size:16px;letter-spacing:.15em;text-transform:uppercase;color:var(--ink)}
+#tag::before{content:"";width:14px;height:14px;background:var(--clay)}   /* square dot = pixel */
+#headline{margin-top:22px;text-wrap:balance;transform:scaleY(var(--stretch));transform-origin:bottom left;line-height:1.02;word-spacing:.32em}
+#headline .si{font-family:"GemunuLibre";font-weight:800;font-size:var(--si-size)}
+#headline .en{font-family:"AmericanCaptain";font-size:calc(var(--si-size) * var(--en-ratio));text-transform:uppercase;white-space:nowrap}
+#headline .en .w{display:inline-block;transform-origin:left bottom}
+#headline .hl{color:var(--clay)}
+
+#footer{position:absolute;left:70px;right:70px;bottom:50px;padding-top:18px;border-top:1.5px solid var(--ink);display:flex;justify-content:space-between;
+  font-family:"Poppins";font-size:15px;letter-spacing:.15em;text-transform:uppercase;color:var(--ink-soft)}
+</style></head>
+<body>
+<div id="post">
+  <div class="grid"></div>
+  <canvas class="grain" id="grain" width="540" height="540"></canvas>
+  <img id="logo" src="assets/logo_dark.png" alt="Asiri Gayashan">
+  <div id="date"></div>
+  <div id="stage"><svg id="pixel"></svg></div>
+  <div id="news"><div id="tag"></div><div id="headline"></div></div>
+  <div id="footer"><span id="foot-l"></span><span id="foot-r"></span></div>
+</div>
+<script>
+/* ======================= PIXEL ENGINE =======================
+ POST.pixel = {
+   w, h            : canvas size in pixels (cells)
+   scale           : screen size of one pixel (px)
+   palette         : { char: "#hex" }  ('.' or ' ' = transparent)
+   layers          : drawn in order, each one of:
+     {type:"sprite", x, y, rows:["..KK..", ...], flipX?}
+     {type:"rect",   x, y, w, h, c}
+     {type:"mountain", x, base, w, h, c, snow?}   (stepped triangle)
+     {type:"text",   x, y, text, c}               (3x5 pixel font: A-Z 0-9 $ % . -)
+ }
+=============================================================== */
+const FONT={A:"010101111101101",B:"110101110101110",C:"011100100100011",D:"110101101101110",E:"111100110100111",F:"111100110100100",
+G:"011100101101011",H:"101101111101101",I:"111010010010111",J:"001001001101010",K:"101101110101101",L:"100100100100111",M:"1000111011101011000110001",
+N:"10011101101110011001",O:"010101101101010",P:"110101110100100",Q:"010101101110011",R:"110101110101101",S:"011100010001110",T:"111010010010010",
+U:"101101101101111",V:"101101101101010",W:"101101111111101",X:"101101010101101",Y:"101101010010010",Z:"111001010100111",
+0:"111101101101111",1:"010110010010111",2:"110001010100111",3:"110001010001110",4:"101101111001001",5:"111100110001110",
+6:"011100111101111",7:"111001010010010",8:"111101111101111",9:"111101111001110","$":"011110010011110","%":"101001010100101",".":"000000000000010","-":"000000111000000"," ":"000000000000000"};
+function drawPixel(P){
+  const svg=document.getElementById('pixel'),NS='http://www.w3.org/2000/svg';
+  svg.setAttribute('width',P.w*P.scale);svg.setAttribute('height',P.h*P.scale);svg.setAttribute('viewBox',`0 0 ${P.w} ${P.h}`);
+  const grid=Array.from({length:P.h},()=>Array(P.w).fill(null));
+  const put=(x,y,c)=>{if(c&&x>=0&&y>=0&&x<P.w&&y<P.h)grid[y][x]=c;};
+  for(const L of P.layers){
+    if(L.type==='sprite'){L.rows.forEach((row,j)=>[...row].forEach((ch,i)=>{const col=P.palette[ch];if(col)put(L.x+(L.flipX?row.length-1-i:i),L.y+j,col);}));}
+    else if(L.type==='rect'){for(let j=0;j<L.h;j++)for(let i=0;i<L.w;i++)put(L.x+i,L.y+j,P.palette[L.c]);}
+    else if(L.type==='mountain'){const half=Math.floor(L.w/2);
+      for(let j=0;j<L.h;j++){const t=Math.round((j/L.h)*half);const y=L.base-L.h+j;
+        for(let i=half-t;i<=half+t;i++)put(L.x+i,y,P.palette[(L.snow&&j<L.h*0.28)?L.snow:L.c]);}}
+    else if(L.type==='text'){let cx=L.x;for(const ch of L.text.toUpperCase()){const g=FONT[ch]||FONT[' '];
+      const gw=g.length/5;for(let j=0;j<5;j++)for(let i=0;i<gw;i++)if(g[j*gw+i]==='1')put(cx+i,L.y+j,P.palette[L.c]);cx+=gw+1;}}
+  }
+  let out='';for(let y=0;y<P.h;y++){let x=0;while(x<P.w){const c=grid[y][x];if(!c){x++;continue;}let w=1;while(x+w<P.w&&grid[y][x+w]===c)w++;
+    out+=`<rect x="${x}" y="${y}" width="${w}" height="1" fill="${c}"/>`;x+=w;}}
+  svg.innerHTML=out;
+}
+
+
+/* ======================= ANIMATION ENGINE =======================
+ POST.anim = { duration, fps, actors:[...] }   (static POST.pixel.layers stay as background)
+ actor: { frames:[rows,...] | rows, fps, path:[[t,x,y],...], ease:"io",
+          show:[t0,t1], shake:[t0,t1,amp], swap:[[t,frames],...], flipX, bob:[amp,hz], blink:[hz] }
+ burst: { type:"burst", t0, x, y, n, colors:[chars], speed, life, gravity, seed }
+=================================================================== */
+function lerpPath(path,t,ease){
+  if(t<=path[0][0])return [path[0][1],path[0][2]];
+  for(let i=1;i<path.length;i++){const a=path[i-1],b=path[i];if(t<=b[0]){let u=(t-a[0])/(b[0]-a[0]||1);
+    if(ease==='io')u=u<.5?2*u*u:1-Math.pow(-2*u+2,2)/2;return [a[1]+(b[1]-a[1])*u,a[2]+(b[2]-a[2])*u];}}
+  const l=path[path.length-1];return [l[1],l[2]];
+}
+function actorLayers(A,t){
+  if(A.type==='burst'){const out=[];const age=t-A.t0;if(age<0||age>A.life)return out;
+    let s=A.seed||7;const r=()=>{s=(s*16807)%2147483647;return s/2147483647};
+    for(let i=0;i<A.n;i++){const ang=r()*Math.PI*2,sp=A.speed*(0.4+r()*0.8),c=A.colors[i%A.colors.length],sz=r()<.4?2:1;
+      const x=A.x+Math.cos(ang)*sp*age,y=A.y+Math.sin(ang)*sp*age+(A.gravity||0)*age*age;
+      if(age<A.life*(0.6+0.4*r()))out.push({type:'rect',x:Math.round(x),y:Math.round(y),w:sz,h:sz,c});}
+    return out;}
+  if(A.show&&(t<A.show[0]||t>=A.show[1]))return [];
+  if(A.blink&&Math.floor(t*A.blink[0]*2)%2===1)return [];
+  let frames=A.frames||[A.rows];
+  if(A.swap)for(const [ts,f] of A.swap)if(t>=ts)frames=f;
+  const fi=frames.length>1?Math.floor(t*(A.fps||8))%frames.length:0;
+  let [x,y]=A.path?lerpPath(A.path,t,A.ease):[A.x,A.y];
+  if(A.bob)y+=Math.round(Math.sin(t*A.bob[1]*Math.PI*2)*A.bob[0]);
+  if(A.shake&&t>=A.shake[0]&&t<A.shake[1]){const k=Math.floor(t*30);x+=(k%2?1:-1)*A.shake[2];y+=(k%3===0?-1:0)*A.shake[2];}
+  return [{type:'sprite',x:Math.round(x),y:Math.round(y),rows:frames[fi],flipX:A.flipX}];
+}
+window.setT=function(t){
+  const P=window.POST;let layers=[...P.pixel.layers];
+  for(const A of (P.anim.actors||[]))layers=layers.concat(actorLayers(A,t));
+  drawPixel({...P.pixel,layers});return true;
+};
+
+/* ======================= HEADLINE ======================= */
+function esc(s){return s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
+function runs(text,hl){
+  return text.split(/([A-Za-z0-9$%&.,:'"!?\-–—\/+]+(?:\s+[A-Za-z0-9$%&.,:'"!?\-–—\/+]+)*)/).filter(Boolean).map(t=>{
+    const en=/[A-Za-z0-9]/.test(t)&&!/[඀-෿]/.test(t);
+    const body=en?t.split(/(\s+)/).map(w=>/\S/.test(w)?`<span class="w">${esc(w)}</span>`:w).join(''):esc(t);
+    return `<span class="${en?'en':'si'}${hl?' hl':''}">${body}</span>`;}).join('');
+}
+const build=src=>src.split(/(\*[^*]+\*)/).filter(Boolean).map(p=>p.startsWith('*')?runs(p.slice(1,-1),true):runs(p,false)).join('');
+
+(()=>{const c=document.getElementById('grain'),x=c.getContext('2d'),d=x.createImageData(c.width,c.height);
+  let s=11;const r=()=>{s=(s*16807)%2147483647;return s/2147483647};
+  for(let i=0;i<d.data.length;i+=4){const v=200+r()*55;d.data[i]=v;d.data[i+1]=v;d.data[i+2]=v-8;d.data[i+3]=255;}
+  x.putImageData(d,0,0);c.style.width='1080px';c.style.height='1080px';})();
+
+async function render(){
+  const P=window.POST;
+  document.getElementById('tag').textContent=P.tag;
+  document.getElementById('date').textContent=P.date||'';
+  document.getElementById('foot-l').textContent=P.footerLeft||'';
+  document.getElementById('foot-r').textContent=P.footerRight||'';
+  if(P.anim)window.setT(0); else if(P.pixel)drawPixel(P.pixel);
+  const h=document.getElementById('headline');h.innerHTML=build(P.headline);
+  await document.fonts.ready;
+  const widen=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--en-widen'));
+  const fix=()=>h.querySelectorAll('.en .w').forEach(w=>{w.style.transform='';w.style.marginRight='';
+    const wd=w.getBoundingClientRect().width;w.style.transform=`scaleX(${widen})`;w.style.marginRight=(wd*(widen-1))+'px';});
+  const lines=()=>{const sz=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--si-size'));const c=[];
+    h.querySelectorAll('.w, .si').forEach(e=>{for(const r of e.getClientRects())c.push((r.top+r.bottom)/2)});c.sort((a,b)=>a-b);
+    let n=c.length?1:0;for(let i=1;i<c.length;i++)if(c[i]-c[i-1]>sz*0.5)n++;return n;};
+  const root=document.documentElement.style;let si=66;root.setProperty('--si-size',si+'px');fix();
+  while(lines()>(P.maxLines||3)&&si>40){si-=2;root.setProperty('--si-size',si+'px');fix();}
+  window.LINES=lines();document.title='ready';
+}
+render();
+</script></body></html>
