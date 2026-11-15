@@ -1,0 +1,592 @@
+{
+ "tag": "World News",
+ "date": "15 Nov 2026",
+ "footerLeft": "AI Automated News",
+ "footerRight": "Source: CBS News, Anadolu",
+ "maxLines": 3,
+ "headline": "ජනාධිපතිවරුන් *TRUMP*, *XI* සහ *PUTIN* අතර ප්‍රථම ත්‍රිපාර්ශ්වික හමුව *නොවැම්බර් 19* වැනිදා චීනයේ *SHENZHEN* නුවර *APEC* සමුළුව අතරතුර පැවැත්වේ",
+ "pixel": {
+  "w": 90,
+  "h": 44,
+  "scale": 10,
+  "palette": {
+   "K": "#10123A",
+   "D": "#2F5BFF",
+   "d": "#1C3BCC",
+   "G": "#C9D6FF",
+   "g": "#9BE7C4",
+   "m": "#FF8FC7",
+   "n": "#C7B5FF",
+   "W": "#FFFFFF",
+   "C": "#FF3B5C",
+   "L": "#FFD23F",
+   "Y": "#FFE14D",
+   "N": "#3DFF8A",
+   "B": "#22D3EE",
+   "P": "#FF4FD8",
+   "S": "#BFE6FF",
+   "R": "#FF3B30",
+   "O": "#FF9F1C",
+   "V": "#8B5CF6",
+   "T": "#FFB4A2",
+   "Z": "#5B4636"
+  },
+  "layers": [
+   {
+    "type": "rect",
+    "x": 1,
+    "y": 1,
+    "w": 88,
+    "h": 39,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 2,
+    "w": 1,
+    "h": 38,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 89,
+    "y": 2,
+    "w": 1,
+    "h": 38,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 2,
+    "y": 0,
+    "w": 86,
+    "h": 1,
+    "c": "S"
+   },
+   {
+    "type": "sprite",
+    "x": 5,
+    "y": 4,
+    "rows": [
+     "....WWWW......",
+     "..WWWWWWWW.WW.",
+     ".WWWWWWWWWWWWW",
+     "WWWWWWWWWWWWWW",
+     ".GGGGGGGGGGGG."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "sprite",
+    "x": 70,
+    "y": 6,
+    "rows": [
+     "....WWWW......",
+     "..WWWWWWWW.WW.",
+     ".WWWWWWWWWWWWW",
+     "WWWWWWWWWWWWWW",
+     ".GGGGGGGGGGGG."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "text",
+    "x": 4,
+    "y": 13,
+    "text": "NOV 19",
+    "c": "D"
+   },
+   {
+    "type": "rect",
+    "x": 8,
+    "y": 39,
+    "w": 74,
+    "h": 1,
+    "c": "G"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 40,
+    "w": 90,
+    "h": 1,
+    "c": "K"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 41,
+    "w": 90,
+    "h": 3,
+    "c": "g"
+   }
+  ]
+ },
+ "anim": {
+  "duration": 5.0,
+  "fps": 24,
+  "actors": [
+   {
+    "rows": [
+     ".B.",
+     "BWB",
+     ".B."
+    ],
+    "x": 24,
+    "y": 8,
+    "blink": [
+     1.2
+    ]
+   },
+   {
+    "rows": [
+     ".Y.",
+     "YWY",
+     ".Y."
+    ],
+    "x": 62,
+    "y": 18,
+    "blink": [
+     1.6
+    ]
+   },
+   {
+    "rows": [
+     ".P.",
+     "PWP",
+     ".P."
+    ],
+    "x": 84,
+    "y": 26,
+    "blink": [
+     1.0
+    ]
+   },
+   {
+    "frames": [
+     [
+      "....KKKK....",
+      "...KZZZZK...",
+      "..KZZZZZZK..",
+      "..KTTTTTTK..",
+      "..KKDKKDKK..",
+      "..KTKTTKTK..",
+      "..KTTTTTTK..",
+      "..KTTKKTTK..",
+      "...KTTTTK...",
+      "..KKDDDDKK..",
+      ".KDDDDWDDDK.",
+      ".KDDDDWDDDK.",
+      ".KTKDDWDDKTK",
+      "..KDDDDDDK..",
+      "..KDDDDDDK..",
+      "..KDDKKDDK..",
+      "..KDDK.KDDK.",
+      "..KKK..KKK.."
+     ],
+     [
+      "....KKKK....",
+      "...KZZZZK...",
+      "..KZZZZZZK..",
+      "..KTTTTTTK..",
+      "..KKDKKDKK..",
+      "..KTKTTKTK..",
+      "..KTTTTTTK..",
+      "..KTTKKTTK..",
+      "...KTTTTK...",
+      "..KKDDDDKK..",
+      ".KDDDDWDDDK.",
+      ".KDDDDWDDDK.",
+      ".KTKDDWDDKTK",
+      "..KDDDDDDK..",
+      "..KDDDDDDK..",
+      "..KDDKKDDK..",
+      "...KDDKDDK..",
+      "...KKKKKK..."
+     ]
+    ],
+    "fps": 6,
+    "path": [
+     [
+      0,
+      -12,
+      22
+     ],
+     [
+      1.8,
+      39,
+      22
+     ]
+    ],
+    "show": [
+     0,
+     1.8
+    ]
+   },
+   {
+    "rows": [
+     "....KKKK....",
+     "...KZZZZK...",
+     "..KZZZZZZK..",
+     "..KTTTTTTK..",
+     "..KKDKKDKK..",
+     "..KTKTTKTK..",
+     "..KTTTTTTK..",
+     "..KTTKKTTK..",
+     "...KTTTTK...",
+     "..KKDDDDKK..",
+     ".KDDDDWDDDK.",
+     ".KDDDDWDDDK.",
+     ".KTKDDWDDKTK",
+     "..KDDDDDDK..",
+     "..KDDDDDDK..",
+     "..KDDKKDDK..",
+     "..KDDK.KDDK.",
+     "..KKK..KKK.."
+    ],
+    "x": 39,
+    "y": 22,
+    "show": [
+     1.8,
+     5
+    ],
+    "swap": [
+     [
+      3.0,
+      [
+       [
+        "....KKKK....",
+        "...KZZZZK...",
+        "..KZZZZZZK..",
+        "..KTTTTTTK..",
+        "..KKDKKDKK..",
+        "..KTKTTKTK..",
+        "..KTTTTTTK..",
+        "..KTTKKTTK..",
+        "...KTTTTK...",
+        "..KKDDDDKK..",
+        ".KDDDDWDDDK.",
+        ".KDDDDWDDDK.",
+        ".KTKDDWDDKTK",
+        "..KDDDDDDK..",
+        "..KDDDDDDK..",
+        "..KDDKKDDK..",
+        "..KDDK.KDDK.",
+        "..KKK..KKK.."
+       ]
+      ]
+     ]
+    ]
+   },
+   {
+    "frames": [
+     [
+      "....KKKK....",
+      "...KZZZZK...",
+      "..KZZZZZZK..",
+      "..KTTTTTTK..",
+      "..KKVKKVKK..",
+      "..KTKTTKTK..",
+      "..KTTTTTTK..",
+      "..KTTKKTTK..",
+      "...KTTTTK...",
+      "..KKVVVVKK..",
+      ".KVVVVWVVVK.",
+      ".KVVVVWVVVK.",
+      ".KTKVVWVVKTK",
+      "..KVVVVVVK..",
+      "..KVVVVVVK..",
+      "..KDDKKDDK..",
+      "..KDDK.KDDK.",
+      "..KKK..KKK.."
+     ],
+     [
+      "....KKKK....",
+      "...KZZZZK...",
+      "..KZZZZZZK..",
+      "..KTTTTTTK..",
+      "..KKVKKVKK..",
+      "..KTKTTKTK..",
+      "..KTTTTTTK..",
+      "..KTTKKTTK..",
+      "...KTTTTK...",
+      "..KKVVVVKK..",
+      ".KVVVVWVVVK.",
+      ".KVVVVWVVVK.",
+      ".KTKVVWVVKTK",
+      "..KVVVVVVK..",
+      "..KVVVVVVK..",
+      "..KDDKKDDK..",
+      "...KDDKDDK..",
+      "...KKKKKK..."
+     ]
+    ],
+    "fps": 6,
+    "path": [
+     [
+      0.6,
+      -12,
+      22
+     ],
+     [
+      1.8,
+      15,
+      22
+     ]
+    ],
+    "show": [
+     0.6,
+     1.8
+    ]
+   },
+   {
+    "rows": [
+     "....KKKK....",
+     "...KZZZZK...",
+     "..KZZZZZZK..",
+     "..KTTTTTTK..",
+     "..KKVKKVKK..",
+     "..KTKTTKTK..",
+     "..KTTTTTTK..",
+     "..KTTKKTTK..",
+     "...KTTTTK...",
+     "..KKVVVVKK..",
+     ".KVVVVWVVVK.",
+     ".KVVVVWVVVK.",
+     ".KTKVVWVVKTK",
+     "..KVVVVVVK..",
+     "..KVVVVVVK..",
+     "..KDDKKDDK..",
+     "..KDDK.KDDK.",
+     "..KKK..KKK.."
+    ],
+    "x": 15,
+    "y": 22,
+    "show": [
+     1.8,
+     5
+    ],
+    "swap": [
+     [
+      3.0,
+      [
+       [
+        "....KKKK....",
+        "...KZZZZK...",
+        "..KZZZZZZK..",
+        "..KTTTTTTK..",
+        "..KKVKKVKK..",
+        "..KTKTTKTK..",
+        "..KTTTTTTK..",
+        "..KTTKKTTK..",
+        "...KTTTTK...",
+        "..KKVVVVKK..",
+        ".KVVVVWVVVK.",
+        ".KVVVVWVVVK.",
+        ".KTKVVWVVKTK",
+        "..KVVVVVVK..",
+        "..KVVVVVVK..",
+        "..KDDKKDDK..",
+        "..KDDK.KDDK.",
+        "..KKK..KKK.."
+       ]
+      ]
+     ]
+    ]
+   },
+   {
+    "frames": [
+     [
+      "....KKKK....",
+      "...KZZZZK...",
+      "..KZZZZZZK..",
+      "..KTTTTTTK..",
+      "..KKOKKOKK..",
+      "..KTKTTKTK..",
+      "..KTTTTTTK..",
+      "..KTTKKTTK..",
+      "...KTTTTK...",
+      "..KKOOOOKK..",
+      ".KOOOOWOOOK.",
+      ".KOOOOWOOOK.",
+      ".KTKOOWOOKTK",
+      "..KOOOOOOK..",
+      "..KOOOOOOK..",
+      "..KDDKKDDK..",
+      "..KDDK.KDDK.",
+      "..KKK..KKK.."
+     ],
+     [
+      "....KKKK....",
+      "...KZZZZK...",
+      "..KZZZZZZK..",
+      "..KTTTTTTK..",
+      "..KKOKKOKK..",
+      "..KTKTTKTK..",
+      "..KTTTTTTK..",
+      "..KTTKKTTK..",
+      "...KTTTTK...",
+      "..KKOOOOKK..",
+      ".KOOOOWOOOK.",
+      ".KOOOOWOOOK.",
+      ".KTKOOWOOKTK",
+      "..KOOOOOOK..",
+      "..KOOOOOOK..",
+      "..KDDKKDDK..",
+      "...KDDKDDK..",
+      "...KKKKKK..."
+     ]
+    ],
+    "fps": 6,
+    "path": [
+     [
+      0.3,
+      92,
+      22
+     ],
+     [
+      1.8,
+      63,
+      22
+     ]
+    ],
+    "show": [
+     0.3,
+     1.8
+    ]
+   },
+   {
+    "rows": [
+     "....KKKK....",
+     "...KZZZZK...",
+     "..KZZZZZZK..",
+     "..KTTTTTTK..",
+     "..KKOKKOKK..",
+     "..KTKTTKTK..",
+     "..KTTTTTTK..",
+     "..KTTKKTTK..",
+     "...KTTTTK...",
+     "..KKOOOOKK..",
+     ".KOOOOWOOOK.",
+     ".KOOOOWOOOK.",
+     ".KTKOOWOOKTK",
+     "..KOOOOOOK..",
+     "..KOOOOOOK..",
+     "..KDDKKDDK..",
+     "..KDDK.KDDK.",
+     "..KKK..KKK.."
+    ],
+    "x": 63,
+    "y": 22,
+    "show": [
+     1.8,
+     5
+    ],
+    "swap": [
+     [
+      3.0,
+      [
+       [
+        "....KKKK....",
+        "...KZZZZK...",
+        "..KZZZZZZK..",
+        "..KTTTTTTK..",
+        "..KKOKKOKK..",
+        "..KTKTTKTK..",
+        "..KTTTTTTK..",
+        "..KTTKKTTK..",
+        "...KTTTTK...",
+        "..KKOOOOKK..",
+        ".KOOOOWOOOK.",
+        ".KOOOOWOOOK.",
+        ".KTKOOWOOKTK",
+        "..KOOOOOOK..",
+        "..KOOOOOOK..",
+        "..KDDKKDDK..",
+        "..KDDK.KDDK.",
+        "..KKK..KKK.."
+       ]
+      ]
+     ]
+    ]
+   },
+   {
+    "rows": [
+     "....KKKKK....",
+     "..KKBBBBBKK..",
+     ".KBBNNBBBBBK.",
+     ".KBNNNNBBNBK.",
+     "KBBNNNBBBNNBK",
+     "KBBBNBBBBNNBK",
+     "KBBBBBBBNNNBK",
+     "KBBNNBBBBNBBK",
+     "KBNNNNBBBBBBK",
+     ".KBNNBBBBBBK.",
+     ".KBBBBBBNBBK.",
+     "..KKBBBBBKK..",
+     "....KKKKK...."
+    ],
+    "ease": "io",
+    "path": [
+     [
+      2.0,
+      39,
+      -14
+     ],
+     [
+      2.8,
+      39,
+      5
+     ]
+    ],
+    "show": [
+     2.0,
+     5
+    ],
+    "bob": [
+     1,
+     0.5
+    ]
+   },
+   {
+    "rows": [
+     "B.B.B.B.B.B.B."
+    ],
+    "x": 25,
+    "y": 30,
+    "show": [
+     3.0,
+     5
+    ]
+   },
+   {
+    "rows": [
+     "B.B.B.B.B.B.B."
+    ],
+    "x": 50,
+    "y": 30,
+    "show": [
+     3.2,
+     5
+    ]
+   },
+   {
+    "type": "burst",
+    "t0": 3.5,
+    "x": 45,
+    "y": 11,
+    "n": 14,
+    "colors": [
+     "B",
+     "W",
+     "Y"
+    ],
+    "speed": 10,
+    "life": 1.2,
+    "gravity": 0,
+    "seed": 3
+   }
+  ]
+ }
+}
