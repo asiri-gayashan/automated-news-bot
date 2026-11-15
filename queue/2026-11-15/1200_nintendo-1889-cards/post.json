@@ -1,0 +1,554 @@
+{
+ "tag": "Interesting Facts",
+ "date": "15 Nov 2026",
+ "footerLeft": "AI Automated News",
+ "footerRight": "Source: Nintendo",
+ "maxLines": 3,
+ "headline": "ලොව ප්‍රසිද්ධ *NINTENDO* සමාගම ආරම්භ වූයේ වීඩියෝ ක්‍රීඩා සමාගමක් ලෙස නොවේ: *1889* දී *KYOTO* නුවර *සෙල්ලම් කාඩ්පත්* නිෂ්පාදනය කරමිනි",
+ "pixel": {
+  "w": 90,
+  "h": 44,
+  "scale": 10,
+  "palette": {
+   "K": "#10123A",
+   "D": "#2F5BFF",
+   "d": "#1C3BCC",
+   "G": "#C9D6FF",
+   "g": "#9BE7C4",
+   "m": "#FF8FC7",
+   "n": "#C7B5FF",
+   "W": "#FFFFFF",
+   "C": "#FF3B5C",
+   "L": "#FFD23F",
+   "Y": "#FFE14D",
+   "N": "#3DFF8A",
+   "B": "#22D3EE",
+   "P": "#FF4FD8",
+   "S": "#BFE6FF",
+   "R": "#FF3B30",
+   "O": "#FF9F1C",
+   "V": "#8B5CF6",
+   "T": "#FFB4A2",
+   "Z": "#5B4636"
+  },
+  "layers": [
+   {
+    "type": "rect",
+    "x": 1,
+    "y": 1,
+    "w": 88,
+    "h": 39,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 2,
+    "w": 1,
+    "h": 38,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 89,
+    "y": 2,
+    "w": 1,
+    "h": 38,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 2,
+    "y": 0,
+    "w": 86,
+    "h": 1,
+    "c": "S"
+   },
+   {
+    "type": "sprite",
+    "x": 30,
+    "y": 3,
+    "rows": [
+     "....WWWW......",
+     "..WWWWWWWW.WW.",
+     ".WWWWWWWWWWWWW",
+     "WWWWWWWWWWWWWW",
+     ".GGGGGGGGGGGG."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "sprite",
+    "x": 70,
+    "y": 6,
+    "rows": [
+     "....WWWW......",
+     "..WWWWWWWW.WW.",
+     ".WWWWWWWWWWWWW",
+     "WWWWWWWWWWWWWW",
+     ".GGGGGGGGGGGG."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "text",
+    "x": 5,
+    "y": 6,
+    "text": "1889",
+    "c": "C"
+   },
+   {
+    "type": "sprite",
+    "x": 4,
+    "y": 31,
+    "rows": [
+     ".KKKKKK.",
+     "KCCCCCCK",
+     "KCWPPWCK",
+     "KCPYYPCK",
+     "KCWPPWCK",
+     "KCWWNWCK",
+     "KCWWNWCK",
+     "KCCCCCCK",
+     ".KKKKKK."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "sprite",
+    "x": 12,
+    "y": 31,
+    "rows": [
+     ".KKKKKK.",
+     "KDDDDDDK",
+     "KDWBBWDK",
+     "KDBWWBDK",
+     "KDWBBWDK",
+     "KDWWNWDK",
+     "KDWWNWDK",
+     "KDDDDDDK",
+     ".KKKKKK."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "sprite",
+    "x": 8,
+    "y": 22,
+    "rows": [
+     ".KKKKKK.",
+     "KCCCCCCK",
+     "KCWPPWCK",
+     "KCPYYPCK",
+     "KCWPPWCK",
+     "KCWWNWCK",
+     "KCWWNWCK",
+     "KCCCCCCK",
+     ".KKKKKK."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "sprite",
+    "x": 42,
+    "y": 26,
+    "rows": [
+     "....K...",
+     "....KK..",
+     "KKKKKNK.",
+     "KNNNNNNK",
+     "KKKKKNK.",
+     "....KK..",
+     "....K..."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 40,
+    "w": 90,
+    "h": 1,
+    "c": "K"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 41,
+    "w": 90,
+    "h": 3,
+    "c": "g"
+   }
+  ]
+ },
+ "anim": {
+  "duration": 5.0,
+  "fps": 24,
+  "actors": [
+   {
+    "rows": [
+     ".P.",
+     "PWP",
+     ".P."
+    ],
+    "x": 26,
+    "y": 8,
+    "blink": [
+     2
+    ]
+   },
+   {
+    "rows": [
+     ".B.",
+     "BWB",
+     ".B."
+    ],
+    "x": 62,
+    "y": 15,
+    "blink": [
+     1.5
+    ]
+   },
+   {
+    "rows": [
+     ".Y.",
+     "YWY",
+     ".Y."
+    ],
+    "x": 84,
+    "y": 28,
+    "blink": [
+     2.5
+    ]
+   },
+   {
+    "frames": [
+     [
+      ".KKKKKKKKKK.",
+      "KCCCCCCCCCCK",
+      "KCWWWWWWWWCK",
+      "KCWWPPWWWWCK",
+      "KCWPYYPWWWCK",
+      "KCWWPPWNWWCK",
+      "KCWWWWNWWWCK",
+      "KCWKKWWKKWCK",
+      "KCWKWWWKWWCK",
+      "KCmWWCCWWmCK",
+      "KCWWWWWWWWCK",
+      "KCCCCCCCCCCK",
+      ".KKKKKKKKKK.",
+      "...KK..KK...",
+      "..KKK..KKK.."
+     ],
+     [
+      ".KKKKKKKKKK.",
+      "KCCCCCCCCCCK",
+      "KCWWWWWWWWCK",
+      "KCWWPPWWWWCK",
+      "KCWPYYPWWWCK",
+      "KCWWPPWNWWCK",
+      "KCWWWWNWWWCK",
+      "KCWKKWWKKWCK",
+      "KCWKWWWKWWCK",
+      "KCmWWCCWWmCK",
+      "KCWWWWWWWWCK",
+      "KCCCCCCCCCCK",
+      ".KKKKKKKKKK.",
+      "..KK....KK..",
+      "..KK....KK.."
+     ]
+    ],
+    "fps": 6,
+    "path": [
+     [
+      0,
+      18,
+      25
+     ],
+     [
+      1.4,
+      58,
+      25
+     ]
+    ],
+    "show": [
+     0,
+     1.4
+    ]
+   },
+   {
+    "rows": [
+     ".KKKKKKKKKK.",
+     "KCCCCCCCCCCK",
+     "KCWWWWWWWWCK",
+     "KCWWPPWWWWCK",
+     "KCWPYYPWWWCK",
+     "KCWWPPWNWWCK",
+     "KCWWWWNWWWCK",
+     "KCWKKWWKKWCK",
+     "KCWKWWWKWWCK",
+     "KCmWWCCWWmCK",
+     "KCWWWWWWWWCK",
+     "KCCCCCCCCCCK",
+     ".KKKKKKKKKK.",
+     "...KK..KK...",
+     "...KK..KK..."
+    ],
+    "x": 58,
+    "y": 25,
+    "show": [
+     1.4,
+     2.35
+    ],
+    "shake": [
+     1.7,
+     2.35,
+     1
+    ]
+   },
+   {
+    "rows": [
+     ".P.P.",
+     "PPPPP",
+     "PPPPP",
+     ".PPP.",
+     "..P.."
+    ],
+    "path": [
+     [
+      1.5,
+      63,
+      20
+     ],
+     [
+      2.2,
+      64,
+      15
+     ]
+    ],
+    "show": [
+     1.5,
+     2.2
+    ]
+   },
+   {
+    "type": "burst",
+    "t0": 2.35,
+    "x": 64,
+    "y": 32,
+    "n": 30,
+    "colors": [
+     "Y",
+     "P",
+     "B",
+     "N",
+     "O"
+    ],
+    "speed": 24,
+    "life": 0.9,
+    "gravity": 16,
+    "seed": 7
+   },
+   {
+    "rows": [
+     "..WW...",
+     ".WWWWW.",
+     "WWGWWWW",
+     "WGGGWWW",
+     ".WWWWW."
+    ],
+    "path": [
+     [
+      2.35,
+      58,
+      30
+     ],
+     [
+      3.3,
+      52,
+      20
+     ]
+    ],
+    "show": [
+     2.35,
+     3.3
+    ]
+   },
+   {
+    "rows": [
+     "..WW...",
+     ".WWWWW.",
+     "WWGWWWW",
+     "WGGGWWW",
+     ".WWWWW."
+    ],
+    "path": [
+     [
+      2.4,
+      68,
+      30
+     ],
+     [
+      3.4,
+      74,
+      19
+     ]
+    ],
+    "show": [
+     2.4,
+     3.4
+    ]
+   },
+   {
+    "rows": [
+     "....KKKKKKKKKKKKKKKK....",
+     "..KKDDDDDDDDDDDDDDDDKK..",
+     ".KDDDDDDDDDDDDDDDDDDDDK.",
+     ".KDDDKDDDDDDDDDDDDYDDDK.",
+     "KDDDKKKDDKKDDKKDDCDBDDDK",
+     "KDDDDKDDDKWDDKWDDDNDDDDK",
+     "KDDDDDDDDDDDDDDDDDDDDDDK",
+     "KDDDDDDDmDDKKDDmDDDDDDDK",
+     "KDDDDDDDDDDDDDDDDDDDDDDK",
+     "KDDDDDDDKKKKKKKKDDDDDDDK",
+     ".KDDDDDK........KDDDDDK.",
+     "..KDDDK..........KDDDK..",
+     "...KKK............KKK..."
+    ],
+    "swap": [
+     [
+      4.2,
+      [
+       [
+        "....KKKKKKKKKKKKKKKK....",
+        "..KKDDDDDDDDDDDDDDDDKK..",
+        ".KDDDDDDDDDDDDDDDDDDDDK.",
+        ".KDDDKDDDDDDDDDDDDYDDDK.",
+        "KDDDKKKDDDDDDDDDDCDBDDDK",
+        "KDDDDKDDDKKDDKKDDDNDDDDK",
+        "KDDDDDDDDDDDDDDDDDDDDDDK",
+        "KDDDDDDDmDDKKDDmDDDDDDDK",
+        "KDDDDDDDDDDDDDDDDDDDDDDK",
+        "KDDDDDDDKKKKKKKKDDDDDDDK",
+        ".KDDDDDK........KDDDDDK.",
+        "..KDDDK..........KDDDK..",
+        "...KKK............KKK..."
+       ]
+      ]
+     ],
+     [
+      4.4,
+      [
+       [
+        "....KKKKKKKKKKKKKKKK....",
+        "..KKDDDDDDDDDDDDDDDDKK..",
+        ".KDDDDDDDDDDDDDDDDDDDDK.",
+        ".KDDDKDDDDDDDDDDDDYDDDK.",
+        "KDDDKKKDDKKDDKKDDCDBDDDK",
+        "KDDDDKDDDKWDDKWDDDNDDDDK",
+        "KDDDDDDDDDDDDDDDDDDDDDDK",
+        "KDDDDDDDmDDKKDDmDDDDDDDK",
+        "KDDDDDDDDDDDDDDDDDDDDDDK",
+        "KDDDDDDDKKKKKKKKDDDDDDDK",
+        ".KDDDDDK........KDDDDDK.",
+        "..KDDDK..........KDDDK..",
+        "...KKK............KKK..."
+       ]
+      ]
+     ]
+    ],
+    "x": 53,
+    "y": 26,
+    "show": [
+     2.45,
+     5
+    ],
+    "bob": [
+     1,
+     1.5
+    ]
+   },
+   {
+    "rows": [
+     "DDD..D..DD...D..D.D",
+     ".D..D.D.D.D.D.D.D.D",
+     ".D..D.D.D.D.DDD..D.",
+     ".D..D.D.D.D.D.D..D.",
+     ".D...D..DD..D.D..D."
+    ],
+    "x": 56,
+    "y": 17,
+    "show": [
+     2.7,
+     5
+    ]
+   },
+   {
+    "rows": [
+     ".P.P.",
+     "PPPPP",
+     "PPPPP",
+     ".PPP.",
+     "..P.."
+    ],
+    "path": [
+     [
+      3.0,
+      52,
+      24
+     ],
+     [
+      4.0,
+      49,
+      12
+     ]
+    ],
+    "show": [
+     3.0,
+     4.0
+    ]
+   },
+   {
+    "rows": [
+     ".P.P.",
+     "PPPPP",
+     "PPPPP",
+     ".PPP.",
+     "..P.."
+    ],
+    "path": [
+     [
+      3.4,
+      76,
+      24
+     ],
+     [
+      4.6,
+      79,
+      11
+     ]
+    ],
+    "show": [
+     3.4,
+     4.6
+    ]
+   },
+   {
+    "rows": [
+     ".Y.",
+     "YWY",
+     ".Y."
+    ],
+    "x": 79,
+    "y": 22,
+    "show": [
+     2.7,
+     5
+    ],
+    "blink": [
+     3
+    ]
+   }
+  ]
+ }
+}
