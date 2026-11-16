@@ -103,6 +103,14 @@ for sf in sorted(ROOT.glob("queue/*/*/status.json")):
     st = json.loads(sf.read_text())
     if not st.get("rendered"):
         continue
+    # never auto-publish stale posts (e.g. left over after an outage): only today's / yesterday's folders
+    import datetime as _dt
+    try:
+        age = (_dt.date.today() - _dt.date.fromisoformat(sf.parent.parent.name)).days
+    except ValueError:
+        age = 0
+    if age > 1:
+        continue
     pub = st.setdefault("published", {})
     if pub.get("facebook") and (pub.get("instagram") or not IG):
         continue
