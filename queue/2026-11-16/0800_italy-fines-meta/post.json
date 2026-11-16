@@ -1,0 +1,875 @@
+{
+ "tag": "Tech Daily",
+ "date": "16 Nov 2026",
+ "footerLeft": "AI Automated News",
+ "footerRight": "Source: AP / Al Jazeera",
+ "maxLines": 3,
+ "headline": "*ITALY* දත්ත ආරක්ෂණ අධිකාරිය *ANDROID* ඡායාරූප ගැලරියට අවසරයකින් තොරව ප්‍රවේශ වීම හේතුවෙන් *META* සමාගමට *යුරෝ මිලියන 805ක* දඩයක් නියම කරයි",
+ "pixel": {
+  "w": 90,
+  "h": 44,
+  "scale": 10,
+  "palette": {
+   "K": "#10123A",
+   "D": "#2F5BFF",
+   "d": "#1C3BCC",
+   "G": "#C9D6FF",
+   "g": "#9BE7C4",
+   "m": "#FF8FC7",
+   "n": "#C7B5FF",
+   "W": "#FFFFFF",
+   "C": "#FF3B5C",
+   "L": "#FFD23F",
+   "Y": "#FFE14D",
+   "N": "#3DFF8A",
+   "B": "#22D3EE",
+   "P": "#FF4FD8",
+   "S": "#BFE6FF",
+   "R": "#FF3B30",
+   "O": "#FF9F1C",
+   "V": "#8B5CF6",
+   "T": "#FFB4A2",
+   "Z": "#5B4636"
+  },
+  "layers": [
+   {
+    "type": "rect",
+    "x": 1,
+    "y": 1,
+    "w": 88,
+    "h": 39,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 2,
+    "w": 1,
+    "h": 38,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 89,
+    "y": 2,
+    "w": 1,
+    "h": 38,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 2,
+    "y": 0,
+    "w": 86,
+    "h": 1,
+    "c": "S"
+   },
+   {
+    "type": "sprite",
+    "x": 36,
+    "y": 3,
+    "rows": [
+     "....WWWW......",
+     "..WWWWWWWW.WW.",
+     ".WWWWWWWWWWWWW",
+     "WWWWWWWWWWWWWW",
+     ".GGGGGGGGGGGG."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "sprite",
+    "x": 70,
+    "y": 4,
+    "rows": [
+     "....WWWW......",
+     "..WWWWWWWW.WW.",
+     ".WWWWWWWWWWWWW",
+     "WWWWWWWWWWWWWW",
+     ".GGGGGGGGGGGG."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 40,
+    "w": 90,
+    "h": 1,
+    "c": "K"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 41,
+    "w": 90,
+    "h": 3,
+    "c": "g"
+   }
+  ]
+ },
+ "anim": {
+  "duration": 5.0,
+  "fps": 24,
+  "actors": [
+   {
+    "rows": [
+     ".P.",
+     "PWP",
+     ".P."
+    ],
+    "x": 40,
+    "y": 12,
+    "blink": [
+     2
+    ]
+   },
+   {
+    "rows": [
+     ".B.",
+     "BWB",
+     ".B."
+    ],
+    "x": 6,
+    "y": 8,
+    "blink": [
+     1.5
+    ]
+   },
+   {
+    "rows": [
+     ".Y.",
+     "YWY",
+     ".Y."
+    ],
+    "x": 84,
+    "y": 32,
+    "blink": [
+     2.5
+    ]
+   },
+   {
+    "frames": [
+     [
+      ".KKKKKKKKKKKKKKKK.",
+      "KDDDDDDKKKKDDDDDDK",
+      "KKKKKKKKKKKKKKKKKK",
+      "KKWWWWWWWWWWWWWWKK",
+      "KKWWWWWWWWWWWWWWKK",
+      "KKWWWWWWWWWWWWWWKK",
+      "KKWWWWWWWWWWWWWWKK",
+      "KKWWWWWWWWWWWWWWKK",
+      "KKWWWWWWWWWWWWWWKK",
+      "KKWWWWWWWWWWWWWWKK",
+      "KKWWWWWWWWWWWWWWKK",
+      "KKWWWWWWWWWWWWWWKK",
+      "KKWWWWWWWWWWWWWWKK",
+      "KKWWWWWWWWWWWWWWKK",
+      "KKWWWWWWWWWWWWWWKK",
+      "KKWWWWWWWWWWWWWWKK",
+      "KKWWWWWWWWWWWWWWKK",
+      "KKWWWWWWWWWWWWWWKK",
+      "KKWWWWWWWWWWWWWWKK",
+      "KKKKKKKKKKKKKKKKKK",
+      "KDDDDDDDDDDDDDDDDK",
+      "KDDDDKWDDDDDKWDDDK",
+      "KDDmDKDDDDDDKDmDDK",
+      "KDDDDDDKDDKDDDDDDK",
+      "KDDDDDDDKKDDDDDDDK",
+      ".KKKKKKKKKKKKKKKK."
+     ]
+    ],
+    "x": 12,
+    "y": 14,
+    "swap": [
+     [
+      0.9,
+      [
+       [
+        ".KKKKKKKKKKKKKKKK.",
+        "KDDDDDDKKKKDDDDDDK",
+        "KKKKKKKKKKKKKKKKKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKKKKKKKKKKKKKKKKK",
+        "KDDDDDDDDDDDDDDDDK",
+        "KDDDDKWDDDDDKWDDDK",
+        "KDDmDKDDDDDDKDmDDK",
+        "KDDDDDDDKKDDDDDDDK",
+        "KDDDDDDDKKDDDDDDDK",
+        ".KKKKKKKKKKKKKKKK."
+       ]
+      ]
+     ],
+     [
+      2.5,
+      [
+       [
+        ".KKKKKKKKKKKKKKKK.",
+        "KDDDDDDKKKKDDDDDDK",
+        "KKKKKKKKKKKKKKKKKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKWWWWWWWWWWWWWWKK",
+        "KKKKKKKKKKKKKKKKKK",
+        "KDDDDDDDDDDDDDDDDK",
+        "KDDDDKWDDDDDKWDDDK",
+        "KDDmDKDDDDDDKDmDDK",
+        "KDDDDDDKDDKDDDDDDK",
+        "KDDDDDDDKKDDDDDDDK",
+        ".KKKKKKKKKKKKKKKK."
+       ]
+      ]
+     ]
+    ],
+    "shake": [
+     1.0,
+     1.6,
+     1
+    ]
+   },
+   {
+    "rows": [
+     "KKKKKK",
+     "KBBBYK",
+     "KBBBBK",
+     "KBNBBK",
+     "KNNNNK",
+     "KKKKKK"
+    ],
+    "ease": "io",
+    "path": [
+     [
+      0,
+      15,
+      18
+     ],
+     [
+      1.0,
+      15,
+      18
+     ],
+     [
+      1.45,
+      56,
+      13
+     ],
+     [
+      2.35,
+      56,
+      13
+     ],
+     [
+      2.8,
+      15,
+      18
+     ],
+     [
+      5,
+      15,
+      18
+     ]
+    ]
+   },
+   {
+    "rows": [
+     "KKKKKK",
+     "KmmmWK",
+     "KmmmmK",
+     "KmPmmK",
+     "KPPPPK",
+     "KKKKKK"
+    ],
+    "ease": "io",
+    "path": [
+     [
+      0,
+      21,
+      18
+     ],
+     [
+      1.12,
+      21,
+      18
+     ],
+     [
+      1.57,
+      57,
+      16
+     ],
+     [
+      2.35,
+      57,
+      16
+     ],
+     [
+      2.8499999999999996,
+      21,
+      18
+     ],
+     [
+      5,
+      21,
+      18
+     ]
+    ]
+   },
+   {
+    "rows": [
+     "KKKKKK",
+     "KYYYOK",
+     "KYYYYK",
+     "KYCYYK",
+     "KCCCCK",
+     "KKKKKK"
+    ],
+    "ease": "io",
+    "path": [
+     [
+      0,
+      15,
+      25
+     ],
+     [
+      1.24,
+      15,
+      25
+     ],
+     [
+      1.69,
+      58,
+      19
+     ],
+     [
+      2.35,
+      58,
+      19
+     ],
+     [
+      2.9,
+      15,
+      25
+     ],
+     [
+      5,
+      15,
+      25
+     ]
+    ]
+   },
+   {
+    "rows": [
+     "KKKKKK",
+     "KnnnYK",
+     "KnnnnK",
+     "KnVnnK",
+     "KVVVVK",
+     "KKKKKK"
+    ],
+    "ease": "io",
+    "path": [
+     [
+      0,
+      21,
+      25
+     ],
+     [
+      1.3599999999999999,
+      21,
+      25
+     ],
+     [
+      1.8099999999999998,
+      59,
+      22
+     ],
+     [
+      2.35,
+      59,
+      22
+     ],
+     [
+      2.9499999999999997,
+      21,
+      25
+     ],
+     [
+      5,
+      21,
+      25
+     ]
+    ]
+   },
+   {
+    "rows": [
+     "KKKKKKKKKK..",
+     "KWWKRRRRRRK.",
+     "KWWKRRRRRRRK",
+     "KKKKKKKKKRRK",
+     "........KRRK",
+     "........KRRK",
+     "KKKKKKKKKRRK",
+     "KWWKRRRRRRRK",
+     "KWWKRRRRRRK.",
+     "KKKKKKKKKK.."
+    ],
+    "ease": "io",
+    "path": [
+     [
+      0.5,
+      96,
+      14
+     ],
+     [
+      1.0,
+      64,
+      14
+     ],
+     [
+      2.15,
+      64,
+      14
+     ],
+     [
+      2.6,
+      98,
+      -14
+     ]
+    ],
+    "show": [
+     0.5,
+     2.6
+    ],
+    "shake": [
+     1.9,
+     2.2,
+     1
+    ]
+   },
+   {
+    "rows": [
+     "....KZZK....",
+     "....KZZK....",
+     "....KZZK....",
+     "....KZZK....",
+     "....KZZK....",
+     "....KZZK....",
+     "....KZZK....",
+     "KKKKKKKKKKKK",
+     "KZZZZZZZZZZK",
+     "KLZZZZZZZZLK",
+     "KZZZZZZZZZZK",
+     "KKKKKKKKKKKK"
+    ],
+    "ease": "io",
+    "path": [
+     [
+      1.5,
+      64,
+      -14
+     ],
+     [
+      1.9,
+      64,
+      2
+     ],
+     [
+      2.1,
+      64,
+      2
+     ],
+     [
+      2.4,
+      64,
+      -16
+     ]
+    ],
+    "show": [
+     1.5,
+     2.4
+    ]
+   },
+   {
+    "type": "burst",
+    "t0": 1.9,
+    "x": 70,
+    "y": 14,
+    "n": 22,
+    "colors": [
+     "Y",
+     "O",
+     "P",
+     "B"
+    ],
+    "speed": 20,
+    "life": 0.8,
+    "gravity": 14,
+    "seed": 3
+   },
+   {
+    "rows": [
+     ".KKKKK.",
+     "KWWCWWK",
+     "KWWCWWK",
+     "KWWCWWK",
+     "KWWWWWK",
+     "KWWCWWK",
+     ".KKKKK.",
+     "..KK...",
+     "..K...."
+    ],
+    "x": 78,
+    "y": 6,
+    "show": [
+     1.9,
+     2.5
+    ],
+    "blink": [
+     6
+    ]
+   },
+   {
+    "rows": [
+     "..KKKKK..",
+     ".KK...KK.",
+     ".K.....K.",
+     "KKKKKKKKK",
+     "KLLLLLLLK",
+     "KLLLKLLLK",
+     "KLLLKLLLK",
+     "KLLLLLLLK",
+     "KKKKKKKKK"
+    ],
+    "x": 31,
+    "y": 12,
+    "show": [
+     2.6,
+     5
+    ],
+    "bob": [
+     1,
+     1.5
+    ]
+   },
+   {
+    "rows": [
+     "...KKKKK...",
+     ".KKLLLLLKK.",
+     ".KLLLRLLLK.",
+     "KLLLRRRRLLK",
+     "KLLRLRLLLLK",
+     "KLLLRRRLLLK",
+     "KLLLLRLRLLK",
+     "KLLRRRRLLLK",
+     ".KLLLRLLLK.",
+     ".KKLLLLLKK.",
+     "...KKKKK..."
+    ],
+    "ease": "io",
+    "path": [
+     [
+      2.4,
+      50,
+      -12
+     ],
+     [
+      2.6999999999999997,
+      50,
+      29
+     ]
+    ],
+    "show": [
+     2.4,
+     5
+    ]
+   },
+   {
+    "rows": [
+     "...KKKKK...",
+     ".KKLLLLLKK.",
+     ".KLLLRLLLK.",
+     "KLLLRRRRLLK",
+     "KLLRLRLLLLK",
+     "KLLLRRRLLLK",
+     "KLLLLRLRLLK",
+     "KLLRRRRLLLK",
+     ".KLLLRLLLK.",
+     ".KKLLLLLKK.",
+     "...KKKKK..."
+    ],
+    "ease": "io",
+    "path": [
+     [
+      2.45,
+      61,
+      -12
+     ],
+     [
+      2.75,
+      61,
+      29
+     ]
+    ],
+    "show": [
+     2.45,
+     5
+    ]
+   },
+   {
+    "rows": [
+     "...KKKKK...",
+     ".KKLLLLLKK.",
+     ".KLLLRLLLK.",
+     "KLLLRRRRLLK",
+     "KLLRLRLLLLK",
+     "KLLLRRRLLLK",
+     "KLLLLRLRLLK",
+     "KLLRRRRLLLK",
+     ".KLLLRLLLK.",
+     ".KKLLLLLKK.",
+     "...KKKKK..."
+    ],
+    "ease": "io",
+    "path": [
+     [
+      2.5,
+      72,
+      -12
+     ],
+     [
+      2.8,
+      72,
+      29
+     ]
+    ],
+    "show": [
+     2.5,
+     5
+    ]
+   },
+   {
+    "rows": [
+     "...KKKKK...",
+     ".KKLLLLLKK.",
+     ".KLLLRLLLK.",
+     "KLLLRRRRLLK",
+     "KLLRLRLLLLK",
+     "KLLLRRRLLLK",
+     "KLLLLRLRLLK",
+     "KLLRRRRLLLK",
+     ".KLLLRLLLK.",
+     ".KKLLLLLKK.",
+     "...KKKKK..."
+    ],
+    "ease": "io",
+    "path": [
+     [
+      2.55,
+      56,
+      -12
+     ],
+     [
+      2.8499999999999996,
+      56,
+      24
+     ]
+    ],
+    "show": [
+     2.55,
+     5
+    ]
+   },
+   {
+    "rows": [
+     "...KKKKK...",
+     ".KKLLLLLKK.",
+     ".KLLLRLLLK.",
+     "KLLLRRRRLLK",
+     "KLLRLRLLLLK",
+     "KLLLRRRLLLK",
+     "KLLLLRLRLLK",
+     "KLLRRRRLLLK",
+     ".KLLLRLLLK.",
+     ".KKLLLLLKK.",
+     "...KKKKK..."
+    ],
+    "ease": "io",
+    "path": [
+     [
+      2.6,
+      67,
+      -12
+     ],
+     [
+      2.9,
+      67,
+      24
+     ]
+    ],
+    "show": [
+     2.6,
+     5
+    ]
+   },
+   {
+    "type": "burst",
+    "t0": 2.75,
+    "x": 66,
+    "y": 24,
+    "n": 24,
+    "colors": [
+     "Y",
+     "L",
+     "N",
+     "P",
+     "B"
+    ],
+    "speed": 24,
+    "life": 1.0,
+    "gravity": 16,
+    "seed": 8
+   },
+   {
+    "rows": [
+     ".P.P.",
+     "PPPPP",
+     "PPPPP",
+     ".PPP.",
+     "..P.."
+    ],
+    "path": [
+     [
+      2.9,
+      14,
+      14
+     ],
+     [
+      3.8,
+      15,
+      3
+     ]
+    ],
+    "show": [
+     2.9,
+     3.8
+    ]
+   },
+   {
+    "rows": [
+     ".P.P.",
+     "PPPPP",
+     "PPPPP",
+     ".PPP.",
+     "..P.."
+    ],
+    "path": [
+     [
+      3.15,
+      24,
+      14
+     ],
+     [
+      4.05,
+      25,
+      3
+     ]
+    ],
+    "show": [
+     3.15,
+     4.05
+    ]
+   },
+   {
+    "rows": [
+     ".P.P.",
+     "PPPPP",
+     "PPPPP",
+     ".PPP.",
+     "..P.."
+    ],
+    "path": [
+     [
+      3.4,
+      19,
+      14
+     ],
+     [
+      4.3,
+      20,
+      3
+     ]
+    ],
+    "show": [
+     3.4,
+     4.3
+    ]
+   },
+   {
+    "rows": [
+     "KKKKKKKKKKKK.",
+     "KDDDKDKDKDDKK",
+     "KDKKKDKDKDKDK",
+     "KDDKKDKDKDDKK",
+     "KDKKKDKDKDKDK",
+     "KDDDKDDDKDKDK",
+     "KKKKKKKKKKKKK"
+    ],
+    "x": 62,
+    "y": 3,
+    "show": [
+     2.7,
+     5
+    ]
+   },
+   {
+    "rows": [
+     "KKKKKKKKKKKKKKKKKKKKKKKKKKKK....KKKK",
+     "KCCCCCCKKCCCCCCKKCCCCCCKKCCK....KCCK",
+     "KCCCCCCKKCCCCCCKKCCCCCCKKCCKKKKKKCCK",
+     "KCCKKCCKKCCKKCCKKCCKKKKKKCCCCKKCCCCK",
+     "KCCKKCCKKCCKKCCKKCCKKKKKKCCCCKKCCCCK",
+     "KCCCCCCKKCCKKCCKKCCCCCCKKCCKKCCKKCCK",
+     "KCCCCCCKKCCKKCCKKCCCCCCKKCCKKCCKKCCK",
+     "KCCKKCCKKCCKKCCKKKKKKCCKKCCKKKKKKCCK",
+     "KCCKKCCKKCCKKCCKKKKKKCCKKCCK....KCCK",
+     "KCCCCCCKKCCCCCCKKCCCCCCKKCCK....KCCK",
+     "KCCCCCCKKCCCCCCKKCCCCCCKKCCK....KCCK",
+     "KKKKKKKKKKKKKKKKKKKKKKKKKKKK....KKKK"
+    ],
+    "x": 50,
+    "y": 10,
+    "show": [
+     2.7,
+     5
+    ]
+   }
+  ]
+ }
+}
