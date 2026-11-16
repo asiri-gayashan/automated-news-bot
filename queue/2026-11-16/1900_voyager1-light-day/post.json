@@ -1,0 +1,398 @@
+{
+ "tag": "Space & Tech",
+ "date": "16 Nov 2026",
+ "footerLeft": "AI Automated News",
+ "footerRight": "Source: Science News",
+ "maxLines": 3,
+ "headline": "*NASA* හි *VOYAGER 1* යානය *නොවැම්බර් 18* වැනිදා පෘථිවියේ සිට *එක් ආලෝක දිනයක්* දුරට ළඟා වන ප්‍රථම මිනිස් නිර්මිත යානය බවට පත්වේ",
+ "pixel": {
+  "w": 90,
+  "h": 44,
+  "scale": 10,
+  "palette": {
+   "K": "#10123A",
+   "D": "#2F5BFF",
+   "d": "#1C3BCC",
+   "G": "#C9D6FF",
+   "g": "#9BE7C4",
+   "m": "#FF8FC7",
+   "n": "#C7B5FF",
+   "W": "#FFFFFF",
+   "C": "#FF3B5C",
+   "L": "#FFD23F",
+   "Y": "#FFE14D",
+   "N": "#3DFF8A",
+   "B": "#22D3EE",
+   "P": "#FF4FD8",
+   "S": "#BFE6FF",
+   "R": "#FF3B30",
+   "O": "#FF9F1C",
+   "V": "#8B5CF6",
+   "T": "#FFB4A2",
+   "Z": "#5B4636"
+  },
+  "layers": [
+   {
+    "type": "rect",
+    "x": 1,
+    "y": 1,
+    "w": 88,
+    "h": 39,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 2,
+    "w": 1,
+    "h": 38,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 89,
+    "y": 2,
+    "w": 1,
+    "h": 38,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 2,
+    "y": 0,
+    "w": 86,
+    "h": 1,
+    "c": "S"
+   },
+   {
+    "type": "sprite",
+    "x": 4,
+    "y": 4,
+    "rows": [
+     "....WWWW......",
+     "..WWWWWWWW.WW.",
+     ".WWWWWWWWWWWWW",
+     "WWWWWWWWWWWWWW",
+     ".GGGGGGGGGGGG."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "sprite",
+    "x": 70,
+    "y": 30,
+    "rows": [
+     "....WWWW......",
+     "..WWWWWWWW.WW.",
+     ".WWWWWWWWWWWWW",
+     "WWWWWWWWWWWWWW",
+     ".GGGGGGGGGGGG."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 40,
+    "w": 90,
+    "h": 1,
+    "c": "K"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 41,
+    "w": 90,
+    "h": 3,
+    "c": "g"
+   }
+  ]
+ },
+ "anim": {
+  "duration": 5.0,
+  "fps": 24,
+  "actors": [
+   {
+    "rows": [
+     ".P.",
+     "PWP",
+     ".P."
+    ],
+    "x": 24,
+    "y": 12,
+    "blink": [
+     2
+    ]
+   },
+   {
+    "rows": [
+     ".Y.",
+     "YWY",
+     ".Y."
+    ],
+    "x": 84,
+    "y": 4,
+    "blink": [
+     1.5
+    ]
+   },
+   {
+    "rows": [
+     ".B.",
+     "BWB",
+     ".B."
+    ],
+    "x": 24,
+    "y": 34,
+    "blink": [
+     2.5
+    ]
+   },
+   {
+    "rows": [
+     ".....KKKKK.....",
+     "...KKDDDDDKK...",
+     "..KDDNNDDDDDK..",
+     ".KDNNNNDDDNNDK.",
+     ".KDNNNDDDDNNDK.",
+     "KDDDWKDDDWKDDDK",
+     "KDDDKKDDDKKDDDK",
+     "KDDmDDDDDDDmDDK",
+     "KDDDDDKKKDDDNNK",
+     "KDDNNDDDDDDNNNK",
+     ".KDNNNDDDDDNNK.",
+     ".KDDNNDDDDDDDK.",
+     "..KDDDDDNNDDK..",
+     "...KKDDDDDKK...",
+     ".....KKKKK....."
+    ],
+    "x": 4,
+    "y": 18,
+    "bob": [
+     1,
+     0.8
+    ]
+   },
+   {
+    "frames": [
+     [
+      "......KKKKK.....",
+      "....KKWWWWWKK...",
+      "...KWWWWWWWWWK..",
+      "..KWWGGGGGGGWWK.",
+      "..KKKKKKKKKKKKK.",
+      ".......KYK......",
+      "....KKKKLKKKK...",
+      "KKKKKLLLLLLLKKKK",
+      "....KLLKKKLLK...",
+      "....KLLLLLLLK...",
+      "....KKKKKKKKK...",
+      "......K...K.....",
+      ".....KCK.KBK....",
+      "......K...K....."
+     ]
+    ],
+    "x": 66,
+    "y": 8,
+    "ease": "io",
+    "path": [
+     [
+      0,
+      26,
+      26
+     ],
+     [
+      1.3,
+      68,
+      8
+     ],
+     [
+      5,
+      68,
+      8
+     ]
+    ],
+    "swap": [
+     [
+      2.85,
+      [
+       [
+        "......KKKKK.....",
+        "....KKYYYYYKK...",
+        "...KYYYYYYYYYK..",
+        "..KYYOOOOOOOYYK.",
+        "..KKKKKKKKKKKKK.",
+        ".......KYK......",
+        "....KKKKLKKKK...",
+        "KKKKKLLLLLLLKKKK",
+        "....KLLKKKLLK...",
+        "....KLLLLLLLK...",
+        "....KKKKKKKKK...",
+        "......K...K.....",
+        ".....KCK.KBK....",
+        "......K...K....."
+       ]
+      ]
+     ]
+    ]
+   },
+   {
+    "rows": [
+     ".BBB.",
+     "B...B",
+     "B.W.B",
+     "B...B",
+     ".BBB."
+    ],
+    "path": [
+     [
+      1.4,
+      18,
+      22
+     ],
+     [
+      2.7,
+      72,
+      16
+     ]
+    ],
+    "show": [
+     1.4,
+     2.7
+    ]
+   },
+   {
+    "rows": [
+     ".BBB.",
+     "B...B",
+     "B.W.B",
+     "B...B",
+     ".BBB."
+    ],
+    "path": [
+     [
+      1.7,
+      18,
+      22
+     ],
+     [
+      3.0,
+      72,
+      16
+     ]
+    ],
+    "show": [
+     1.7,
+     3.0
+    ]
+   },
+   {
+    "rows": [
+     ".BBB.",
+     "B...B",
+     "B.W.B",
+     "B...B",
+     ".BBB."
+    ],
+    "path": [
+     [
+      2.0,
+      18,
+      22
+     ],
+     [
+      3.3,
+      72,
+      16
+     ]
+    ],
+    "show": [
+     2.0,
+     3.3
+    ]
+   },
+   {
+    "rows": [
+     ".BBB.",
+     "B...B",
+     "B.W.B",
+     "B...B",
+     ".BBB."
+    ],
+    "path": [
+     [
+      2.3,
+      18,
+      22
+     ],
+     [
+      3.5999999999999996,
+      72,
+      16
+     ]
+    ],
+    "show": [
+     2.3,
+     3.5999999999999996
+    ]
+   },
+   {
+    "type": "burst",
+    "t0": 3.2,
+    "x": 75,
+    "y": 14,
+    "n": 24,
+    "colors": [
+     "Y",
+     "P",
+     "B",
+     "N",
+     "O"
+    ],
+    "speed": 18,
+    "life": 0.9,
+    "gravity": 10,
+    "seed": 3
+   },
+   {
+    "rows": [
+     "PPP.P.P.P.P",
+     "..P.P.P.P.P",
+     "PPP.PPP.PPP",
+     "P.....P.P.P",
+     "PPP...P.P.P"
+    ],
+    "x": 40,
+    "y": 31,
+    "show": [
+     1.6,
+     5
+    ],
+    "bob": [
+     1,
+     1
+    ]
+   },
+   {
+    "rows": [
+     "..CC............CCCC......CC....CC..CC",
+     "..CC............CCCC......CC....CC..CC",
+     "CCCC............CC..CC..CC..CC..CC..CC",
+     "CCCC............CC..CC..CC..CC..CC..CC",
+     "..CC............CC..CC..CCCCCC....CC..",
+     "..CC............CC..CC..CCCCCC....CC..",
+     "..CC............CC..CC..CC..CC....CC..",
+     "..CC............CC..CC..CC..CC....CC..",
+     "CCCCCC..........CCCC....CC..CC....CC..",
+     "CCCCCC..........CCCC....CC..CC....CC.."
+    ],
+    "x": 28,
+    "y": 3,
+    "show": [
+     2.6,
+     5
+    ]
+   }
+  ]
+ }
+}
