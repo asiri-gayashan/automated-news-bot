@@ -55,7 +55,7 @@ for post in sorted(ROOT.glob("queue/*/*/post.json")):
 
 if os.environ.get("GITHUB_STEP_SUMMARY"):
     with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as f:
-        f.write("## New posts waiting for approval\n\n" + ("\n".join(summary) or "Nothing new.") +
+        f.write("## New posts (publishing automatically)\n\n" + ("\n".join(summary) or "Nothing new.") +
                 "\n\n_Images can take ~1 minute to appear while GitHub Pages updates._\n")
 if os.environ.get("GITHUB_OUTPUT"):
     with open(os.environ["GITHUB_OUTPUT"], "a") as f:

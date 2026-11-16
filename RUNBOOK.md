@@ -2,7 +2,8 @@
 
 Page: **Asiri Gayashan** (Sinhala tech & news page). Each run makes **exactly one** post and commits it to `queue/`.
 **Never push a second post in the same run.** If you change your mind after pushing, stop and tell Asiri instead (he can reject it in GitHub).
-GitHub Actions then renders the video, waits for Asiri's approval, and publishes to Facebook + Instagram.
+GitHub Actions then renders the video and **publishes it to Facebook + Instagram automatically — there is NO human check**.
+So be extra careful: if you are not sure a story is accurate, neutral and safe, choose a different story.
 
 ## 0. Set-up inside the run
 ```bash
@@ -65,5 +66,5 @@ git add queue && git commit -m "Post <date> <HHMM>: <short title>" && git push
 (`preview.png` is git-ignored. The American Captain font is a secret, so the preview uses a fallback font for English words — the real render is done by GitHub Actions.)
 
 ## 6. Report
-Send Asiri a short message: the headline, the topic, the sources, and that the post is waiting for approval in GitHub
-(Actions → "Render & publish news posts" → Review deployments → Approve).
+Send Asiri a short message: the headline, the topic, the sources, and that it will be posted automatically in a few minutes
+(he can cancel the run in GitHub → Actions if something is wrong).
