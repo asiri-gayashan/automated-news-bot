@@ -1,0 +1,659 @@
+{
+ "tag": "Interesting Facts",
+ "date": "17 Nov 2026",
+ "footerLeft": "AI Automated News",
+ "footerRight": "Source: Computer History Museum",
+ "maxLines": 3,
+ "headline": "ලොව ප්‍රථම *HOME VIDEO GAME CONSOLE* එක වූ *MAGNAVOX ODYSSEY* *1972* දී නිකුත් විය; ක්‍රීඩා පසුබිම සඳහා *TV* තිරයට *ප්ලාස්ටික් පත්‍ර* ඇලවිය යුතු විය",
+ "pixel": {
+  "w": 90,
+  "h": 44,
+  "scale": 10,
+  "palette": {
+   "K": "#10123A",
+   "D": "#2F5BFF",
+   "d": "#1C3BCC",
+   "G": "#C9D6FF",
+   "g": "#9BE7C4",
+   "m": "#FF8FC7",
+   "n": "#C7B5FF",
+   "W": "#FFFFFF",
+   "C": "#FF3B5C",
+   "L": "#FFD23F",
+   "Y": "#FFE14D",
+   "N": "#3DFF8A",
+   "B": "#22D3EE",
+   "P": "#FF4FD8",
+   "S": "#BFE6FF",
+   "R": "#FF3B30",
+   "O": "#FF9F1C",
+   "V": "#8B5CF6",
+   "T": "#FFB4A2",
+   "Z": "#5B4636"
+  },
+  "layers": [
+   {
+    "type": "rect",
+    "x": 1,
+    "y": 1,
+    "w": 88,
+    "h": 39,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 2,
+    "w": 1,
+    "h": 38,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 89,
+    "y": 2,
+    "w": 1,
+    "h": 38,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 2,
+    "y": 0,
+    "w": 86,
+    "h": 1,
+    "c": "S"
+   },
+   {
+    "type": "sprite",
+    "x": 3,
+    "y": 4,
+    "rows": [
+     "....WWWW......",
+     "..WWWWWWWW.WW.",
+     ".WWWWWWWWWWWWW",
+     "WWWWWWWWWWWWWW",
+     ".GGGGGGGGGGGG."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "sprite",
+    "x": 70,
+    "y": 3,
+    "rows": [
+     "....WWWW......",
+     "..WWWWWWWW.WW.",
+     ".WWWWWWWWWWWWW",
+     "WWWWWWWWWWWWWW",
+     ".GGGGGGGGGGGG."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "text",
+    "x": 6,
+    "y": 14,
+    "text": "1972",
+    "c": "C"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 40,
+    "w": 90,
+    "h": 1,
+    "c": "K"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 41,
+    "w": 90,
+    "h": 3,
+    "c": "g"
+   },
+   {
+    "type": "sprite",
+    "x": 28,
+    "y": 11,
+    "rows": [
+     "..........LK..........KL..........",
+     "............K........K............",
+     ".............K......K.............",
+     "..............K....K..............",
+     "...............K..K...............",
+     "KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK",
+     "KZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZK",
+     "KZKKKKKKKKKKKKKKKKKKKKKKKKZZZZZZZK",
+     "KZKddddddddddddddddddddddKZZZZZZZK",
+     "KZKddddddddddddddddddddddKZZZZZZZK",
+     "KZKddddddddddddddddddddddKZKLLKZZK",
+     "KZKddddddddddddddddddddddKZKLLKZZK",
+     "KZKddddddddddddddddddddddKZZZZZZZK",
+     "KZKddddddddddddddddddddddKZZZZZZZK",
+     "KZKddddddddddddddddddddddKZZZZZZZK",
+     "KZKddddddddddddddddddddddKZKCCKZZK",
+     "KZKddddddddddddddddddddddKZKCCKZZK",
+     "KZKddddddddddddddddddddddKZZZZZZZK",
+     "KZKddddddddddddddddddddddKZZZZZZZK",
+     "KZKddddddddddddddddddddddKZZZZZZZK",
+     "KZKddddddddddddddddddddddKZGGGGGZK",
+     "KZKddddddddddddddddddddddKZGGGGGZK",
+     "KZKddddddddddddddddddddddKZZZZZZZK",
+     "KZKddddddddddddddddddddddKZZZZZZZK",
+     "KZKKKKKKKKKKKKKKKKKKKKKKKKZZZZZZZK",
+     "KZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZK",
+     "KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK",
+     ".KK............................KK.",
+     ".KK............................KK."
+    ],
+    "flipX": false
+   }
+  ]
+ },
+ "anim": {
+  "duration": 5.0,
+  "fps": 24,
+  "actors": [
+   {
+    "rows": [
+     ".P.",
+     "PWP",
+     ".P."
+    ],
+    "x": 63,
+    "y": 9,
+    "blink": [
+     2
+    ]
+   },
+   {
+    "rows": [
+     ".B.",
+     "BWB",
+     ".B."
+    ],
+    "x": 22,
+    "y": 22,
+    "blink": [
+     1.5
+    ]
+   },
+   {
+    "rows": [
+     ".Y.",
+     "YWY",
+     ".Y."
+    ],
+    "x": 84,
+    "y": 24,
+    "blink": [
+     2.5
+    ]
+   },
+   {
+    "rows": [
+     "..KKKKKKKKKKKKKK..",
+     ".KWWWWWWWWWWWWWWK.",
+     "KWWWWWWWWWWWWWWWWK",
+     "KWZZZZZZZZZZZZZZWK",
+     "KWWWWWWWWWWWWWWWWK",
+     "KKKKKKKKKKKKKKKKKK"
+    ],
+    "ease": "io",
+    "path": [
+     [
+      0,
+      -20,
+      34
+     ],
+     [
+      0.9,
+      6,
+      34
+     ],
+     [
+      5,
+      6,
+      34
+     ]
+    ]
+   },
+   {
+    "rows": [
+     "KKKKK",
+     "KWRWK",
+     "KWWWK",
+     "KWLWK",
+     "KKKKK"
+    ],
+    "ease": "io",
+    "path": [
+     [
+      0.15,
+      -26,
+      35
+     ],
+     [
+      1.0,
+      1,
+      35
+     ],
+     [
+      5,
+      1,
+      35
+     ]
+    ]
+   },
+   {
+    "rows": [
+     "KKKKK",
+     "KWRWK",
+     "KWWWK",
+     "KWLWK",
+     "KKKKK"
+    ],
+    "ease": "io",
+    "path": [
+     [
+      0.15,
+      -14,
+      35
+     ],
+     [
+      1.0,
+      22,
+      35
+     ],
+     [
+      5,
+      22,
+      35
+     ]
+    ]
+   },
+   {
+    "rows": [
+     "KKKKKKKKKKKKKKKKKKKKKK",
+     "KKKKKKKKKKKKKKKKKKKKKK",
+     "KKKKKKKKKKKKKKKKKKKKKK",
+     "KKKKKKKKKKKKKKKKKKKKKK",
+     "KKKKKKKKKKKKKKKKKKKKKK",
+     "KKKKKKKKKKKKKKKKKKKKKK",
+     "KKKKKKKKKKKKKKKKKKKKKK",
+     "KKKKKKKKKKKKKKKKKKKKKK",
+     "KKKKKKKKKKKKKKKKKKKKKK",
+     "KKKKKKKKKKKKKKKKKKKKKK",
+     "KKKKKKKKKKKKKKKKKKKKKK",
+     "KKKKKKKKKKKKKKKKKKKKKK",
+     "KKKKKKKKKKKKKKKKKKKKKK",
+     "KKKKKKKKKKKKKKKKKKKKKK",
+     "KKKKKKKKKKKKKKKKKKKKKK",
+     "KKKKKKKKKKKKKKKKKKKKKK"
+    ],
+    "x": 31,
+    "y": 19,
+    "show": [
+     1.0,
+     5
+    ]
+   },
+   {
+    "type": "burst",
+    "t0": 1.0,
+    "x": 42,
+    "y": 27,
+    "n": 14,
+    "colors": [
+     "W",
+     "B",
+     "Y"
+    ],
+    "speed": 14,
+    "life": 0.5,
+    "gravity": 0,
+    "seed": 3
+   },
+   {
+    "rows": [
+     "WWWWWWWWWWWWWWWWWWWWWW",
+     "WDDDNNNNNNWWNNNNNNCCCW",
+     "WDDDNNNNNNWWNNNNNNCCCW",
+     "WDDDggggggWWggggggCCCW",
+     "WDDDggggggWWggggggCCCW",
+     "WDDDggggggWWggggggCCCW",
+     "WDDDNNNNNNWWNNNNNNCCCW",
+     "WDDDNNNNNNWWNNNNNNCCCW",
+     "WDDDNNNNNNWWNNNNNNCCCW",
+     "WDDDggggggWWggggggCCCW",
+     "WDDDggggggWWggggggCCCW",
+     "WDDDggggggWWggggggCCCW",
+     "WDDDNNNNNNWWNNNNNNCCCW",
+     "WDDDNNNNNNWWNNNNNNCCCW",
+     "WDDDNNNNNNWWNNNNNNCCCW",
+     "WWWWWWWWWWWWWWWWWWWWWW"
+    ],
+    "ease": "io",
+    "path": [
+     [
+      1.8,
+      31,
+      -18
+     ],
+     [
+      2.6,
+      31,
+      19
+     ],
+     [
+      5,
+      31,
+      19
+     ]
+    ],
+    "show": [
+     1.8,
+     5
+    ],
+    "shake": [
+     2.6,
+     2.9,
+     1
+    ]
+   },
+   {
+    "type": "burst",
+    "t0": 2.65,
+    "x": 42,
+    "y": 21,
+    "n": 26,
+    "colors": [
+     "Y",
+     "P",
+     "B",
+     "N",
+     "O"
+    ],
+    "speed": 22,
+    "life": 0.9,
+    "gravity": 18,
+    "seed": 7
+   },
+   {
+    "rows": [
+     "W",
+     "W",
+     "W",
+     "W"
+    ],
+    "path": [
+     [
+      1.1,
+      33,
+      22
+     ],
+     [
+      2.0,
+      33,
+      28
+     ],
+     [
+      3.0,
+      33,
+      23
+     ],
+     [
+      4.0,
+      33,
+      29
+     ],
+     [
+      5,
+      33,
+      25
+     ]
+    ],
+    "show": [
+     1.1,
+     5
+    ]
+   },
+   {
+    "rows": [
+     "W",
+     "W",
+     "W",
+     "W"
+    ],
+    "path": [
+     [
+      1.1,
+      50,
+      28
+     ],
+     [
+      2.0,
+      50,
+      22
+     ],
+     [
+      3.0,
+      50,
+      29
+     ],
+     [
+      4.0,
+      50,
+      23
+     ],
+     [
+      5,
+      50,
+      27
+     ]
+    ],
+    "show": [
+     1.1,
+     5
+    ]
+   },
+   {
+    "rows": [
+     "WW",
+     "WW"
+    ],
+    "path": [
+     [
+      1.1,
+      35,
+      24
+     ],
+     [
+      1.7,
+      49,
+      29
+     ],
+     [
+      2.3,
+      35,
+      22
+     ],
+     [
+      2.9,
+      49,
+      28
+     ],
+     [
+      3.5,
+      35,
+      31
+     ],
+     [
+      4.1,
+      49,
+      23
+     ],
+     [
+      4.7,
+      35,
+      28
+     ],
+     [
+      5,
+      42,
+      26
+     ]
+    ],
+    "show": [
+     1.1,
+     5
+    ]
+   },
+   {
+    "frames": [
+     [
+      "....KKKK....",
+      "...KZZZZK...",
+      "..KZZZZZZK..",
+      "..KTTTTTTK..",
+      "..KKWKKWKK..",
+      "..KTKTTKTK..",
+      "..KTTTTTTK..",
+      "..KTTCCTTK..",
+      "...KTTTTK...",
+      "..KKWWWWKK..",
+      ".KWWWWBWWWK.",
+      ".KWWWWBWWWK.",
+      ".KTKWWBWWKTK",
+      "..KWWWWWWK..",
+      "..KWWWWWWK..",
+      "..KDDKKDDK..",
+      "..KDDK.KDDK.",
+      "..KKK..KKK.."
+     ],
+     [
+      "....KKKK....",
+      "...KZZZZK...",
+      "..KZZZZZZK..",
+      "..KTTTTTTK..",
+      "..KKWKKWKK..",
+      "..KTKTTKTK..",
+      "..KTTTTTTK..",
+      "..KTTCCTTK..",
+      "...KTTTTK...",
+      "..KKWWWWKK..",
+      ".KWWWWBWWWK.",
+      ".KWWWWBWWWK.",
+      ".KTKWWBWWKTK",
+      "..KWWWWWWK..",
+      "..KWWWWWWK..",
+      "..KDDKKDDK..",
+      "...KDDKDDK..",
+      "...KKKKKK..."
+     ]
+    ],
+    "fps": 6,
+    "path": [
+     [
+      3.3,
+      92,
+      22
+     ],
+     [
+      4.2,
+      70,
+      22
+     ]
+    ],
+    "show": [
+     3.3,
+     4.2
+    ]
+   },
+   {
+    "rows": [
+     "....KKKK....",
+     "...KZZZZK...",
+     "..KZZZZZZK..",
+     "..KTTTTTTK..",
+     "..KKWKKWKK..",
+     "..KTKTTKTK..",
+     "..KTTTTTTK..",
+     "..KTTCCTTK..",
+     "...KTTTTK...",
+     "..KKWWWWKK..",
+     ".KWWWWBWWWK.",
+     ".KWWWWBWWWK.",
+     ".KTKWWBWWKTK",
+     "..KWWWWWWK..",
+     "..KWWWWWWK..",
+     "..KDDKKDDK..",
+     "..KDDK.KDDK.",
+     "..KKK..KKK.."
+    ],
+    "x": 70,
+    "y": 22,
+    "show": [
+     4.2,
+     5
+    ],
+    "bob": [
+     1,
+     3
+    ]
+   },
+   {
+    "rows": [
+     ".P.P.",
+     "PPPPP",
+     "PPPPP",
+     ".PPP.",
+     "..P.."
+    ],
+    "path": [
+     [
+      4.25,
+      74,
+      18
+     ],
+     [
+      4.9,
+      75,
+      12
+     ]
+    ],
+    "show": [
+     4.25,
+     5
+    ]
+   },
+   {
+    "rows": [
+     ".P.P.",
+     "PPPPP",
+     "PPPPP",
+     ".PPP.",
+     "..P.."
+    ],
+    "path": [
+     [
+      4.45,
+      80,
+      19
+     ],
+     [
+      5,
+      82,
+      14
+     ]
+    ],
+    "show": [
+     4.45,
+     5
+    ]
+   }
+  ]
+ }
+}
