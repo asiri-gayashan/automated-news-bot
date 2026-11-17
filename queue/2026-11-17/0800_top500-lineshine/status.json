@@ -5,5 +5,8 @@
  "video_url": "https://asiri-gayashan.github.io/automated-news-posts/posts/2026-11-17/0800_top500-lineshine.mp4",
  "reel_url": "https://asiri-gayashan.github.io/automated-news-posts/posts/2026-11-17/0800_top500-lineshine.reel.mp4",
  "cover_url": "https://asiri-gayashan.github.io/automated-news-posts/posts/2026-11-17/0800_top500-lineshine.cover.png",
- "published": {}
+ "published": {
+  "facebook_error": "400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"AKM3S8_0dAcn_d8Z8P441DR\"}}",
+  "instagram_error": "400: {\"error\":{\"message\":\"API access blocked.\",\"code\":200,\"type\":\"OAuthException\",\"error_subcode\":5258005,\"fbtrace_id\":\"AdBw9b1QgJsLoVbJyyVM1VR\"}}"
+ }
 }
