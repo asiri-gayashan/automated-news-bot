@@ -5,5 +5,8 @@
  "video_url": "https://asiri-gayashan.github.io/automated-news-posts/posts/2026-11-17/1200_first-game-console.mp4",
  "reel_url": "https://asiri-gayashan.github.io/automated-news-posts/posts/2026-11-17/1200_first-game-console.reel.mp4",
  "cover_url": "https://asiri-gayashan.github.io/automated-news-posts/posts/2026-11-17/1200_first-game-console.cover.png",
- "published": {}
+ "published": {
+  "facebook_error": "400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"AHxXVl0PsGWSkN4CNKB_WSs\"}}",
+  "instagram_error": "400: {\"error\":{\"message\":\"API access blocked.\",\"code\":200,\"type\":\"OAuthException\",\"error_subcode\":5258005,\"fbtrace_id\":\"AlaPyXKEqhDTrsmAhjiDUVI\"}}"
+ }
 }
