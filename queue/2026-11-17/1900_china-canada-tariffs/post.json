@@ -1,0 +1,413 @@
+{
+ "tag": "World News",
+ "date": "17 Nov 2026",
+ "footerLeft": "AI Automated News",
+ "footerRight": "Source: Reuters, AP",
+ "maxLines": 3,
+ "headline": "චීන ජනාධිපති *XI JINPING* සහ කැනඩා අගමැති *MARK CARNEY* අතර *SHENZHEN* නුවරදී පැවති හමුවේදී *තීරුබදු සහන* තවදුරටත් පුළුල් කිරීමට එකඟ වෙති",
+ "pixel": {
+  "w": 90,
+  "h": 44,
+  "scale": 10,
+  "palette": {
+   "K": "#10123A",
+   "D": "#2F5BFF",
+   "d": "#1C3BCC",
+   "G": "#C9D6FF",
+   "g": "#9BE7C4",
+   "m": "#FF8FC7",
+   "n": "#C7B5FF",
+   "W": "#FFFFFF",
+   "C": "#FF3B5C",
+   "L": "#FFD23F",
+   "Y": "#FFE14D",
+   "N": "#3DFF8A",
+   "B": "#22D3EE",
+   "P": "#FF4FD8",
+   "S": "#BFE6FF",
+   "R": "#FF3B30",
+   "O": "#FF9F1C",
+   "V": "#8B5CF6",
+   "T": "#FFB4A2",
+   "Z": "#5B4636"
+  },
+  "layers": [
+   {
+    "type": "rect",
+    "x": 1,
+    "y": 1,
+    "w": 88,
+    "h": 39,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 2,
+    "w": 1,
+    "h": 38,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 89,
+    "y": 2,
+    "w": 1,
+    "h": 38,
+    "c": "S"
+   },
+   {
+    "type": "rect",
+    "x": 2,
+    "y": 0,
+    "w": 86,
+    "h": 1,
+    "c": "S"
+   },
+   {
+    "type": "sprite",
+    "x": 3,
+    "y": 5,
+    "rows": [
+     "....WWWW......",
+     "..WWWWWWWW.WW.",
+     ".WWWWWWWWWWWWW",
+     "WWWWWWWWWWWWWW",
+     ".GGGGGGGGGGGG."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "sprite",
+    "x": 70,
+    "y": 3,
+    "rows": [
+     "....WWWW......",
+     "..WWWWWWWW.WW.",
+     ".WWWWWWWWWWWWW",
+     "WWWWWWWWWWWWWW",
+     ".GGGGGGGGGGGG."
+    ],
+    "flipX": false
+   },
+   {
+    "type": "text",
+    "x": 4,
+    "y": 14,
+    "text": "APEC",
+    "c": "d"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 31,
+    "w": 90,
+    "h": 9,
+    "c": "D"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 31,
+    "w": 90,
+    "h": 1,
+    "c": "B"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 40,
+    "w": 90,
+    "h": 1,
+    "c": "K"
+   },
+   {
+    "type": "rect",
+    "x": 0,
+    "y": 41,
+    "w": 90,
+    "h": 3,
+    "c": "d"
+   }
+  ]
+ },
+ "anim": {
+  "duration": 5.0,
+  "fps": 24,
+  "actors": [
+   {
+    "rows": [
+     ".WW.....WW.....WW.....WW.....WW.....WW.....WW.....WW.....WW.....WW.....WW.....WW.....WW.....WW.....WW...."
+    ],
+    "path": [
+     [
+      0,
+      0,
+      34
+     ],
+     [
+      5,
+      -6,
+      34
+     ]
+    ],
+    "show": [
+     0,
+     5
+    ]
+   },
+   {
+    "rows": [
+     ".WW.....WW.....WW.....WW.....WW.....WW.....WW.....WW.....WW.....WW.....WW.....WW.....WW.....WW.....WW...."
+    ],
+    "path": [
+     [
+      0,
+      -3,
+      37
+     ],
+     [
+      5,
+      3,
+      37
+     ]
+    ],
+    "show": [
+     0,
+     5
+    ]
+   },
+   {
+    "rows": [
+     "................KKKKKK......",
+     "................KWBWBK......",
+     ".KKKKKKKKKKKKK..KWWWWK......",
+     ".KOOOKYYYKmmmK..KWBWBK......",
+     ".KOOOKYYYKmmmK..KWWWWK......",
+     "KKKKKKKKKKKKKKKKKKKKKKKKKKKK",
+     "KCCCCCCCCCCCCCCCCCCCCCCCCCCK",
+     ".KCCCCCCCCCCCCCCCCCCCCCCCCK.",
+     "..KWWWWWWWWWWWWWWWWWWWWWWK..",
+     "...KKKKKKKKKKKKKKKKKKKKKK..."
+    ],
+    "ease": "io",
+    "path": [
+     [
+      0,
+      -30,
+      24
+     ],
+     [
+      1.6,
+      3,
+      24
+     ],
+     [
+      5,
+      3,
+      24
+     ]
+    ],
+    "bob": [
+     0.5,
+     0.8
+    ]
+   },
+   {
+    "rows": [
+     "......KKKKKK................",
+     "......KBWBWK................",
+     "......KWWWWK..KKKKKKKKKKKKK.",
+     "......KBWBWK..KnnnnnnKnnnnK.",
+     "......KWWWWK..KGGGGGGKGGGGK.",
+     "KKKKKKKKKKKKKKKKKKKKKKKKKKKK",
+     "KVVVVVVVVVVVVVVVVVVVVVVVVVVK",
+     ".KVVVVVVVVVVVVVVVVVVVVVVVVK.",
+     "..KWWWWWWWWWWWWWWWWWWWWWWK..",
+     "...KKKKKKKKKKKKKKKKKKKKKK..."
+    ],
+    "ease": "io",
+    "path": [
+     [
+      0.2,
+      92,
+      24
+     ],
+     [
+      1.8,
+      59,
+      24
+     ],
+     [
+      5,
+      59,
+      24
+     ]
+    ],
+    "bob": [
+     0.5,
+     0.7
+    ]
+   },
+   {
+    "rows": [
+     "...........KK.....",
+     "...........KOK....",
+     "...........KOOK...",
+     "KKKKKKKKKKKKOOOK..",
+     "KOOOOOOOOOOOOOOOK.",
+     "KKKKKKKKKKKKOOOK..",
+     "...........KOOK...",
+     "...........KOK....",
+     "...........KK....."
+    ],
+    "x": 37,
+    "y": 17,
+    "show": [
+     1.8,
+     5
+    ]
+   },
+   {
+    "rows": [
+     ".....KK...........",
+     "....KBK...........",
+     "...KBBK...........",
+     "..KBBBKKKKKKKKKKKK",
+     ".KBBBBBBBBBBBBBBBK",
+     "..KBBBKKKKKKKKKKKK",
+     "...KBBK...........",
+     "....KBK...........",
+     ".....KK..........."
+    ],
+    "x": 37,
+    "y": 24,
+    "show": [
+     2.0,
+     5
+    ]
+   },
+   {
+    "rows": [
+     "KKKKK",
+     "KOYOK",
+     "KYOYK",
+     "KOYOK",
+     "KKKKK"
+    ],
+    "ease": "io",
+    "path": [
+     [
+      1.9,
+      16,
+      18
+     ],
+     [
+      2.8,
+      64,
+      18
+     ]
+    ],
+    "show": [
+     1.9,
+     2.8
+    ]
+   },
+   {
+    "rows": [
+     "KKKKKK",
+     "KGGGnK",
+     "KnnnnK",
+     "KKKKKK"
+    ],
+    "ease": "io",
+    "path": [
+     [
+      2.1,
+      66,
+      26
+     ],
+     [
+      3.0,
+      18,
+      26
+     ]
+    ],
+    "show": [
+     2.1,
+     3.0
+    ]
+   },
+   {
+    "rows": [
+     ".KKKKKKKKKKKKKKKKKKKK.",
+     "KWWWWWWWWWWWWWWWWWWWWK",
+     "KWWWWWWWWWWWWWKNNKWWWK",
+     "KWWCCWWWCWWWWWKNNKWWWK",
+     "KWWCCWWCWWWWWWKNNKWWWK",
+     "KWWWWWCWWWWWKKKNNKKKWK",
+     "KWWWWCWWWWWWWKNNNNKWWK",
+     "KWWWCWWCCWWWWWKNNKWWWK",
+     "KWWCWWWCCWWWWWWKKWWWWK",
+     "KWWWWWWWWWWWWWWWWWWWWK",
+     "KWWWWWWWWWWWWWWWWWWWWK",
+     ".KKKKKKKKKKKKKKKKKKKK."
+    ],
+    "ease": "io",
+    "path": [
+     [
+      2.6,
+      34,
+      1
+     ],
+     [
+      3.0,
+      34,
+      3
+     ],
+     [
+      5,
+      34,
+      3
+     ]
+    ],
+    "show": [
+     2.6,
+     5
+    ]
+   },
+   {
+    "rows": [
+     ".Y.",
+     "YWY",
+     ".Y."
+    ],
+    "x": 30,
+    "y": 5,
+    "show": [
+     3.0,
+     5
+    ],
+    "blink": [
+     1
+    ]
+   },
+   {
+    "rows": [
+     ".B.",
+     "BWB",
+     ".B."
+    ],
+    "x": 58,
+    "y": 9,
+    "show": [
+     3.2,
+     5
+    ],
+    "blink": [
+     1.3
+    ]
+   }
+  ]
+ }
+}
