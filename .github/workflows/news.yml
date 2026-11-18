@@ -1,9 +1,10 @@
 name: Render & publish news posts
 
 on:
-  push:
-    branches: [main]
-    paths: ["queue/**"]
+  # PAUSED on 2026-11-18 (Meta blocked the app). To resume automatic runs, restore:
+  # push:
+  #   branches: [main]
+  #   paths: ["queue/**"]
   workflow_dispatch:
 
 concurrency:
